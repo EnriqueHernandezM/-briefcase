@@ -1,0 +1,312 @@
+{"level":"error","message":"err en getHome_controller ReferenceError: jkjkji is not defined","timestamp":"2023-06-27T01:28:30.181Z"}
+{"level":"error","message":"err en getHome_controller ReferenceError: jkjkji is not defined","timestamp":"2023-06-27T01:28:32.821Z"}
+{"level":"error","message":"err en getHome_controller ReferenceError: jkjkji is not defined","timestamp":"2023-06-27T01:28:42.346Z"}
+{"level":"error","message":"err en getHome_controller ReferenceError: jkjkji is not defined","timestamp":"2023-06-27T01:28:44.528Z"}
+{"level":"error","message":"err en getHome_controller ReferenceError: fdf is not defined","timestamp":"2023-06-27T01:32:45.964Z"}
+{"level":"error","message":"err en getHome_controller ReferenceError: fdf is not defined","timestamp":"2023-06-27T01:32:47.859Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received undefined","timestamp":"2023-06-27T16:10:57.680Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received undefined","timestamp":"2023-06-27T16:11:18.006Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received undefined","timestamp":"2023-06-27T17:19:10.579Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received undefined","timestamp":"2023-06-27T17:19:41.458Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: readFile is not defined","timestamp":"2023-06-27T17:23:20.462Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: readFile is not defined","timestamp":"2023-06-27T17:23:39.315Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: readFile is not a function","timestamp":"2023-06-27T17:24:26.577Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected token u in JSON at position 0","timestamp":"2023-06-27T17:24:39.767Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: routesExiting is not defined","timestamp":"2023-06-27T17:29:52.742Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received type string ('utf8')","timestamp":"2023-06-27T17:49:28.649Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received type string ('utf8')","timestamp":"2023-06-27T17:49:45.684Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received type string ('utf8')","timestamp":"2023-06-27T17:50:16.215Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received undefined","timestamp":"2023-06-27T17:50:54.278Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined","timestamp":"2023-06-27T18:27:30.931Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined","timestamp":"2023-06-27T18:27:32.642Z"}
+{"level":"error","message":"err_in_controller_postRouteReferenceError: logger is not defined","timestamp":"2023-06-27T18:36:05.345Z"}
+{"level":"error","message":"err_in_controller_postRouteReferenceError: logger is not defined","timestamp":"2023-06-27T18:36:17.353Z"}
+{"level":"error","message":"err_in_controller_postRouteReferenceError: logger is not defined","timestamp":"2023-06-27T18:36:45.059Z"}
+{"level":"error","message":"err_in_services_addRoutesReferenceError: object is not defined","timestamp":"2023-06-27T18:38:52.679Z"}
+{"level":"error","message":"err_in_services_addRoutesReferenceError: ContainerProducts is not defined","timestamp":"2023-06-27T18:49:24.511Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"product\" is required","timestamp":"2023-06-27T18:49:46.159Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"value\" is required","timestamp":"2023-06-27T18:50:11.713Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"string\" is required","timestamp":"2023-06-27T18:50:37.523Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"a\" is required","timestamp":"2023-06-27T18:51:26.181Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:09:00.042Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:09:32.547Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:09:37.303Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"urlAdress\" must be a string","timestamp":"2023-06-28T20:09:55.112Z"}
+{"level":"error","message":"err_in_services_addRoutesReferenceError: err is not defined","timestamp":"2023-06-28T20:21:50.037Z"}
+{"level":"error","message":"esssssssssssValidationError: \"name\" is required","timestamp":"2023-06-28T20:24:22.411Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:24:22.412Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:25:20.946Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:25:24.495Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:25:32.582Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:30:48.120Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:40:36.711Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:40:38.139Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:40:50.309Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:40:51.594Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:42:02.599Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:42:05.511Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:42:12.800Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:42:22.513Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:42:23.868Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:45:42.618Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"url\" is required","timestamp":"2023-06-28T20:45:47.419Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"url\" is required","timestamp":"2023-06-28T20:46:39.245Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"url\" is required","timestamp":"2023-06-28T20:46:45.879Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"url\" is required","timestamp":"2023-06-28T20:46:51.155Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:47:13.353Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:47:33.612Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:47:33.618Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:49:46.832Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:49:46.834Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:49:57.352Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:49:57.354Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:50:19.388Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:50:19.390Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:53:35.017Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:02.643Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:02.646Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:20.225Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:31.267Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:33.115Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:34.644Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:45.879Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:53.757Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:53.759Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:55.125Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T20:54:55.127Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-06-28T21:06:56.525Z"}
+{"level":"error","message":"error en db_fs_add_routReferenceError: rev is not defined","timestamp":"2023-06-28T21:10:02.056Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs.map is not a function","timestamp":"2023-06-28T21:24:15.860Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs.map is not a function","timestamp":"2023-06-28T21:24:17.881Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs.map is not a function","timestamp":"2023-06-28T21:24:35.109Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:28:54.636Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:29:11.441Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:29:43.936Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:29:45.472Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:30:01.300Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:30:58.653Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:31:10.278Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs is not iterable","timestamp":"2023-06-28T21:31:48.531Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'lengt')","timestamp":"2023-06-28T21:37:21.610Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:37:34.395Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'lenght')","timestamp":"2023-06-28T21:37:54.298Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'lenght')","timestamp":"2023-06-28T21:38:38.491Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'lenght')","timestamp":"2023-06-28T21:38:58.642Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:39:16.443Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:39:57.689Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:41:19.153Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:41:45.400Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:47:22.867Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:47:22.869Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:48:08.008Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:48:08.011Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:49:11.762Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:49:16.430Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:49:16.432Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:49:43.322Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:49:43.324Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:49:44.868Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:49:44.870Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:50:26.164Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:50:26.167Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:50:32.389Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:50:32.390Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:51:16.318Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:51:40.745Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:51:51.514Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:52:15.236Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:52:34.872Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:54:53.612Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:54:53.614Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:56:09.629Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-06-28T21:56:09.631Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:56:53.062Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:57:13.277Z"}
+{"level":"error","message":"error en dbFsgetRoutsSyntaxError: Unexpected end of JSON input","timestamp":"2023-06-28T21:57:36.784Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: allAddresExisting.push is not a function","timestamp":"2023-06-28T21:58:46.885Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: allAddresExisting.push is not a function","timestamp":"2023-06-28T22:00:56.032Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: allAddresExisting.push is not a function","timestamp":"2023-06-28T22:02:25.299Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: allAddresExisting.push is not a function","timestamp":"2023-06-28T22:02:50.310Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: allAddresExisting.push is not a function","timestamp":"2023-06-28T22:03:35.180Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: allAddresExisting.push is not a function","timestamp":"2023-06-28T22:03:45.987Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Assignment to constant variable.","timestamp":"2023-06-28T22:05:30.493Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Assignment to constant variable.","timestamp":"2023-06-28T22:05:35.295Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Assignment to constant variable.","timestamp":"2023-06-28T22:06:02.155Z"}
+{"level":"error","message":"error en db_fs_add_routTypeError: Assignment to constant variable.","timestamp":"2023-06-28T22:06:54.383Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:12:23.579Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:13:06.047Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:13:15.341Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:13:41.518Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:13:52.527Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:17:46.500Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: object is not defined","timestamp":"2023-06-28T22:18:03.437Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T22:18:38.366Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T22:19:34.900Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T22:19:41.119Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T22:27:04.405Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T22:27:13.047Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T22:27:25.371Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: el is not defined","timestamp":"2023-06-28T22:33:32.336Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: array is not defined","timestamp":"2023-06-28T22:50:53.865Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs.fiter is not a function","timestamp":"2023-06-28T22:52:25.445Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: routs.fiter is not a function","timestamp":"2023-06-28T22:52:33.839Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading 'name')","timestamp":"2023-06-28T23:01:04.203Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T23:03:09.211Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T23:03:25.519Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T23:03:31.739Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-06-28T23:04:50.311Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot read properties of undefined (reading '1')","timestamp":"2023-06-28T23:05:53.575Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot create property 'postNewRout4' on string 'postNewRout3'","timestamp":"2023-06-28T23:28:23.444Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot create property 'postNewRout4' on string 'postNewRout3'","timestamp":"2023-06-28T23:28:26.894Z"}
+{"level":"error","message":"error en dbFsgetRoutsTypeError: Cannot create property 'postNewRout3' on number '1'","timestamp":"2023-06-28T23:41:39.505Z"}
+{"level":"error","message":"error en db_fs_add_routReferenceError: err is not defined","timestamp":"2023-06-28T23:51:22.783Z"}
+{"level":"error","message":"error en db_fs_add_routReferenceError: err is not defined","timestamp":"2023-06-28T23:51:41.680Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T23:55:52.526Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T23:56:13.115Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T23:56:13.118Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T23:56:34.096Z"}
+{"level":"error","message":"err_in_services_addRoutesValidationError: \"name\" is required","timestamp":"2023-06-28T23:56:36.586Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T23:56:43.086Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-28T23:58:49.890Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: Assignment to constant variable.","timestamp":"2023-06-29T00:00:06.363Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: z is not defined","timestamp":"2023-06-29T00:00:46.128Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:04.863Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:06.364Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:07.540Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:08.513Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:21.706Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:48.635Z"}
+{"level":"error","message":"err_in_controller_get_indexReferenceError: ddd is not defined","timestamp":"2023-06-29T00:01:48.636Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:15:04.594Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:15:17.091Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:15:17.093Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:20.840Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:17:20.842Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:23.138Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:17:23.139Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:30.492Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:32.174Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:44.793Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:17:44.795Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:55.349Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:17:55.351Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:55.823Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:17:55.827Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: ss is not defined","timestamp":"2023-06-29T00:17:59.607Z"}
+{"level":"error","message":"err_in_controller_get_indexnononono","timestamp":"2023-06-29T00:17:59.610Z"}
+{"level":"error","message":"err_in_controller_get_indexerr Db unable to get ","timestamp":"2023-06-29T00:19:13.407Z"}
+{"level":"error","message":"err_in_controller_get_inde:err Db unable to get ","timestamp":"2023-06-29T00:19:35.265Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:19:44.398Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:20:02.421Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: removeIds is not defined","timestamp":"2023-06-29T00:20:32.708Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: removeIds is not defined","timestamp":"2023-06-29T00:20:52.784Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:20:52.787Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:20:59.966Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:21:15.856Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:21:24.757Z"}
+{"level":"error","message":"error en dbFsgetRoutsReferenceError: removeIds is not defined","timestamp":"2023-06-29T00:21:42.746Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:21:42.748Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:21:55.284Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:22:07.937Z"}
+{"level":"error","message":"err_in_controller_get_index:_err Db unable to get ","timestamp":"2023-06-29T00:24:59.305Z"}
+{"level":"error","message":"err_in_controller_get_index:_TypeError: err is not a constructor","timestamp":"2023-06-29T00:25:15.974Z"}
+{"level":"error","message":"err_in_controller_get_index:_Error","timestamp":"2023-06-29T00:25:49.421Z"}
+{"level":"error","message":"err_in_controller_get_index:_ReferenceError: next is not defined","timestamp":"2023-06-29T00:26:10.840Z"}
+{"level":"error","message":"err_in_controller_get_index:_errin controller","timestamp":"2023-06-29T00:26:36.188Z"}
+{"level":"error","message":"err_in_controller_get_index:_errin controller","timestamp":"2023-06-29T00:27:28.309Z"}
+{"level":"error","message":"err_in_controller_get_index:_ReferenceError: next is not defined","timestamp":"2023-06-29T00:27:46.252Z"}
+{"level":"error","message":"err_in_controller_get_index:_hufhouwfffweoifejoi","timestamp":"2023-06-29T00:27:54.045Z"}
+{"level":"error","message":"err_in_controller_get_index:_ttt","timestamp":"2023-06-29T00:28:02.870Z"}
+{"level":"error","message":"err_in_controller_get_index:_ttt","timestamp":"2023-06-29T00:28:20.331Z"}
+{"level":"error","message":"err_in_controller_get_index:_hufhouwfffweoifejoi","timestamp":"2023-06-29T00:28:29.709Z"}
+{"level":"error","message":"err_in_controller_get_index:_ReferenceError: removeIds is not defined","timestamp":"2023-06-29T00:28:43.363Z"}
+{"level":"error","message":"err_in_controller_get_index:_dbErro","timestamp":"2023-06-29T00:29:05.652Z"}
+{"level":"error","message":"err_in_controller_get_index:_get elmenent db not found","timestamp":"2023-06-29T00:29:26.521Z"}
+{"level":"error","message":"err_in_services_getmyroutsget elmenent db not found","timestamp":"2023-06-29T00:29:35.649Z"}
+{"level":"error","message":"err_in_controller_get_index:_get elmenent db not found","timestamp":"2023-06-29T00:29:35.653Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:30:04.746Z"}
+{"level":"error","message":"err_in_controller_get_index:_TypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:30:04.748Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:30:25.018Z"}
+{"level":"error","message":"err_in_controller_get_index:_TypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:30:25.020Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:31:40.900Z"}
+{"level":"error","message":"err_in_controller_get_index:_get element not available","timestamp":"2023-06-29T00:31:40.902Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:31:54.269Z"}
+{"level":"error","message":"err_in_controller_get_index:_get element not available","timestamp":"2023-06-29T00:31:54.271Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:31:57.534Z"}
+{"level":"error","message":"err_in_controller_get_index:_get element not available","timestamp":"2023-06-29T00:31:57.535Z"}
+{"level":"error","message":"err_in_services_getmyroutsTypeError: resMyRoutes is not a function","timestamp":"2023-06-29T00:32:03.171Z"}
+{"level":"error","message":"err_in_controller_get_index:get element not available","timestamp":"2023-06-29T00:32:03.174Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: myRoutess is not defined","timestamp":"2023-06-29T00:32:24.526Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: myRoutess is not defined","timestamp":"2023-06-29T00:33:12.719Z"}
+{"level":"error","message":"err_in_services_getmyroutsReferenceError: resMyRoutesss is not defined","timestamp":"2023-06-29T00:33:20.789Z"}
+{"level":"error","message":"err_in_controller_get_index:get element not available","timestamp":"2023-06-29T00:33:20.791Z"}
+{"level":"error","message":"err_in_controller_get_index:get element in controller not available","timestamp":"2023-06-29T00:33:42.369Z"}
+{"level":"error","message":"err_in_controller_get_index:get element in controller not available","timestamp":"2023-06-29T05:25:16.245Z"}
+{"level":"error","message":"err_in_controller_get_index:get elemenents db not found","timestamp":"2023-06-29T05:25:54.397Z"}
+{"level":"error","message":"err_in_controller_get_index:get elemenents db not found","timestamp":"2023-06-29T05:26:00.721Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:28:55.721Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:30:04.527Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:30:06.934Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:30:13.509Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:30:36.502Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:30:46.914Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:30:49.052Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:31:25.021Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:32:04.433Z"}
+{"level":"error","message":"err_in_controller_get_index:Db unable to get posts with id: ","timestamp":"2023-06-29T05:33:32.609Z"}
+{"level":"error","message":"err_in_controller_get_index:Db unable to get posts with id: ","timestamp":"2023-06-29T05:33:34.979Z"}
+{"level":"error","message":"err_in_controller_get_index:Db unable to get posts with id: ","timestamp":"2023-06-29T05:33:46.727Z"}
+{"level":"error","message":"err_in_controller_get_index:Db unable to get posts with id: ","timestamp":"2023-06-29T05:34:41.487Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:34:49.706Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:35:20.374Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unable to get posts with id: ","timestamp":"2023-06-29T05:35:22.503Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unableputos","timestamp":"2023-06-29T05:35:37.376Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unableputos","timestamp":"2023-06-29T05:35:40.745Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unableputos","timestamp":"2023-06-29T05:36:06.406Z"}
+{"level":"error","message":"err_in_controller_get_index:TypeError: err is not a constructor","timestamp":"2023-06-29T05:36:20.518Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unableputos","timestamp":"2023-06-29T05:36:29.474Z"}
+{"level":"error","message":"err_in_controller_get_index:Error: Db unableputos","timestamp":"2023-06-29T05:36:37.083Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: resMyRoutesss is not defined","timestamp":"2023-06-29T05:36:53.104Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: resMyRoutesss is not defined","timestamp":"2023-06-29T05:42:08.243Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: resMyRoutesss is not defined","timestamp":"2023-06-29T05:42:10.651Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: removeIdss is not defined","timestamp":"2023-06-29T05:42:27.487Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteRout is not a function","timestamp":"2023-06-29T05:54:55.991Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T05:56:26.340Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T05:56:27.677Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T05:57:06.164Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T05:57:26.545Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T05:58:48.776Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T05:59:25.565Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T06:00:07.583Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRout is not a function","timestamp":"2023-06-29T06:00:19.553Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: ContainerIndex.deleteOneRoutDb is not a function","timestamp":"2023-06-29T06:00:37.148Z"}
+{"level":"error","message":"err_in_deleteRoutReferenceError: containerIndex is not defined","timestamp":"2023-06-29T06:00:50.332Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:01:20.211Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:01:51.114Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:02:09.401Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:02:28.429Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:03:18.387Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:03:33.688Z"}
+{"level":"error","message":"err_in_deleteRout[object Object]","timestamp":"2023-06-29T06:03:35.933Z"}
+{"level":"error","message":"err_in_deleteRoutReferenceError: err is not defined","timestamp":"2023-06-29T06:04:18.078Z"}
+{"level":"error","message":"err_in_deleteRoutReferenceError: err is not defined","timestamp":"2023-06-29T06:04:29.025Z"}
+{"level":"error","message":"err_in_deleteRoutReferenceError: err is not defined","timestamp":"2023-06-29T06:04:30.116Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:04:41.021Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:04:43.305Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:05:12.422Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:05:18.122Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:05:42.830Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:05:45.262Z"}
+{"level":"error","message":"err_in_deleteRoutkkkkkkk","timestamp":"2023-06-29T06:05:58.091Z"}
+{"level":"error","message":"err_in_deleteRoutError: non id available","timestamp":"2023-06-29T06:07:33.091Z"}
+{"level":"error","message":"err_in_deleteRoutError: non id available","timestamp":"2023-06-29T06:07:58.965Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:09:38.113Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:09:39.767Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-29T06:10:06.290Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:12:35.094Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:12:51.678Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: res.estatus is not a function","timestamp":"2023-06-29T06:13:34.979Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: res.estatus is not a function","timestamp":"2023-06-29T06:13:50.670Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:14:11.122Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: res.estatus is not a function","timestamp":"2023-06-29T06:14:49.029Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:15:05.317Z"}
