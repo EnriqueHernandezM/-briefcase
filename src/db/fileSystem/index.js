@@ -1,4 +1,3 @@
-import logger from "../../utils/loggers.js";
 import fs from "fs";
 
 export default class ContainerIndexFs {
@@ -53,11 +52,10 @@ export default class ContainerIndexFs {
         allAddresExisting.splice(catchI, 1);
         const arrModified = JSON.stringify(allAddresExisting);
         fs.writeFileSync(this.file, arrModified);
-        return { msge: "true" };
+        return { msge: true };
       } else if (catchI === -1) {
         throw new Error("no id available");
       }
-      console.log(catchI);
     } catch (err) {
       throw err;
     }

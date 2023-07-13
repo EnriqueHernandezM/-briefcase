@@ -13,12 +13,14 @@ export default class ContainerIndex {
   }
   async addRoutes(routToAdd) {
     try {
-      ContainerIndex.checkProduct(routToAdd);
+      ContainerIndex.checkUrlAdd(routToAdd);
       const newRout = await DaoIndex.addRoutesDb(routToAdd);
-      return {
-        succes: "true",
-        newRout,
-      };
+      if (newRout.length) {
+        return {
+          succes: "true",
+          newRout,
+        };
+      }
     } catch (err) {
       throw err;
     }
@@ -31,7 +33,7 @@ export default class ContainerIndex {
       throw err;
     }
   }
-  static checkProduct(urlObject) {
+  static checkUrlAdd(urlObject) {
     try {
       ContainerIndex.validar(urlObject);
     } catch (err) {

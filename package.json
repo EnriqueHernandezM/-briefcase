@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js 8081 fs",
-    "test": "mocha src/tests/testIndex.js "
+    "test": "mocha src/tests/testIndex.js ",
+    "test_projects": "mocha src/tests/testCrudProjects.js "
+    
   },
   "author": "Enrique Hernandez Montiel",
   "license": "ISC",

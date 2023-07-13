@@ -8,6 +8,7 @@ const httpServer = http.createServer(app);
 /////de esto borrar creo spolo =usarermos uno
 import { notFound, errorHandler } from "./middleware/error.middleware.js";
 import { index } from "./routers/router.js";
+import { projects } from "./routers/router.js";
 export default class InitServer {
   constructor() {
     this.PORT = aroundConfig.PORT || process.argv[2];
@@ -31,6 +32,7 @@ export default class InitServer {
   }
   routes() {
     this.app.use("/api", index);
+    this.app.use("/api/v1", projects);
     this.app.use(this.notFound);
     this.app.use(this.errorHandler);
   }

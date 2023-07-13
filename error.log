@@ -310,3 +310,126 @@
 {"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:14:11.122Z"}
 {"level":"error","message":"err_in_deleteRoutTypeError: res.estatus is not a function","timestamp":"2023-06-29T06:14:49.029Z"}
 {"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-29T06:15:05.317Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T04:18:34.916Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T04:18:54.504Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T04:19:29.971Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:34:49.263Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:37:14.946Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:39:28.768Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:39:37.530Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:39:44.740Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:40:13.842Z"}
+{"level":"error","message":"err_in_controller_postRouteValidationError: \"name\" is required","timestamp":"2023-06-30T05:40:30.748Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:49:34.054Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:51:44.918Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:52:13.861Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:52:49.801Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:53:03.460Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:53:24.688Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:55:16.951Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:55:30.132Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:56:24.818Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:56:33.989Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:57:03.856Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:58:13.242Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-06-30T05:58:47.295Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:38:44.818Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:41:54.030Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:45:56.372Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:46:18.131Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:46:34.820Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:47:54.569Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T00:48:22.414Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T01:15:20.076Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-02T01:15:37.972Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-03T20:02:13.644Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-03T20:03:08.001Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-03T20:03:32.792Z"}
+{"level":"error","message":"err_in_controller_postRouteReferenceError: array is not defined","timestamp":"2023-07-03T20:10:31.389Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-03T20:10:31.412Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-03T20:11:07.400Z"}
+{"level":"error","message":"err_in_controller_get_all_projects:ReferenceError: resAllProjects is not defined","timestamp":"2023-07-04T01:02:59.525Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot set properties of undefined (setting 'id')","timestamp":"2023-07-04T01:02:59.569Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T01:02:59.584Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot set properties of undefined (setting 'id')","timestamp":"2023-07-04T01:04:41.596Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T01:04:41.614Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot set properties of undefined (setting 'id')","timestamp":"2023-07-04T01:05:18.559Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T01:05:18.571Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot set properties of undefined (setting 'id')","timestamp":"2023-07-04T01:07:23.395Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T01:07:23.414Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T01:09:44.290Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T03:36:41.083Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T03:37:23.180Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 3 is not a function","timestamp":"2023-07-04T03:40:22.859Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 4 is not a function","timestamp":"2023-07-04T03:42:29.754Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 5 is not a function","timestamp":"2023-07-04T03:43:50.863Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 6 is not a function","timestamp":"2023-07-04T03:44:59.228Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 7 is not a function","timestamp":"2023-07-04T03:45:14.591Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 4 is not a function","timestamp":"2023-07-04T03:46:31.771Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:TypeError: 4 is not a function","timestamp":"2023-07-04T03:47:51.644Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:ReferenceError: catchTheProject is not defined","timestamp":"2023-07-04T03:50:48.994Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T03:55:10.296Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T03:55:10.312Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T03:58:45.067Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T03:58:45.097Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T03:59:51.270Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T03:59:51.293Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T04:00:26.023Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T04:00:26.051Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T04:01:20.686Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T04:18:06.040Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T04:18:06.064Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T04:19:33.926Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T04:19:33.947Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T04:20:10.739Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-04T04:20:10.762Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:ReferenceError: thsi is not defined","timestamp":"2023-07-04T05:55:16.090Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:ReferenceError: get is not defined","timestamp":"2023-07-04T05:55:51.993Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-04T05:56:49.333Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-04T05:57:48.360Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-04T05:58:02.155Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-04T06:02:13.240Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-04T06:10:13.252Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-04T06:10:14.593Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-04T06:13:49.510Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: answerOfPutAprojects is not defined","timestamp":"2023-07-04T06:14:28.737Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-08T08:48:13.312Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-08T08:49:38.385Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: ContainerIndex is not defined","timestamp":"2023-07-08T09:03:19.453Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-08T09:03:19.464Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-08T09:03:19.488Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" must contain 4 items","timestamp":"2023-07-08T09:03:54.785Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-08T09:03:54.803Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-08T09:03:54.824Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" must contain less than or equal to 2 items","timestamp":"2023-07-08T09:06:05.204Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-08T09:06:05.226Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-08T09:06:05.251Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" is required","timestamp":"2023-07-11T09:02:25.750Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" is required","timestamp":"2023-07-11T09:02:25.892Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" is required","timestamp":"2023-07-11T09:02:26.108Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"description\" length must be less than or equal to 40 characters long","timestamp":"2023-07-12T20:35:51.344Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-12T20:35:51.359Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-07-12T20:35:51.373Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"nameProject\" length must be less than or equal to 20 characters long","timestamp":"2023-07-12T20:36:19.690Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-12T20:36:19.706Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-07-12T20:36:19.717Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"description\" length must be less than or equal to 40 characters long","timestamp":"2023-07-12T20:38:18.195Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-12T20:38:18.213Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-07-12T20:38:18.235Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"description\" length must be less than or equal to 40 characters long","timestamp":"2023-07-12T20:39:37.772Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-12T20:39:37.789Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-07-12T20:39:37.805Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"nameProject\" length must be less than or equal to 20 characters long","timestamp":"2023-07-12T20:40:17.420Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-12T20:40:17.439Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-07-12T20:40:17.450Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-07-12T20:41:40.288Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"description\" length must be less than or equal to 90 characters long","timestamp":"2023-07-12T20:42:08.903Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"description\" length must be less than or equal to 90 characters long","timestamp":"2023-07-12T20:42:20.822Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-07-13T07:45:13.784Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"nameProject\" is not allowed to be empty","timestamp":"2023-07-13T07:58:00.607Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-07-13T07:58:17.615Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-07-13T07:58:30.980Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-07-13T07:59:02.919Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-07-13T07:59:32.107Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" must be an array","timestamp":"2023-07-13T08:00:44.826Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"nameProject\" is not allowed to be empty","timestamp":"2023-07-13T08:02:08.611Z"}

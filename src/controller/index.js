@@ -1,7 +1,7 @@
 import ContainerIndex from "../services/index.js";
 import logger from "../utils/loggers.js";
 const containerIndex = new ContainerIndex();
-import { notFound, errorHandler } from "../middleware/error.middleware.js";
+
 async function getIndex(req, res, next) {
   try {
     const myRoutes = await containerIndex.getMyRouts();
