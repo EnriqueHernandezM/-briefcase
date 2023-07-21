@@ -1,4 +1,4 @@
-import { DaoIndex } from "../db/daos/daosFactory.js";
+import { DaoIndex } from "../models/daos/daosFactory.js";
 import logger from "../utils/loggers.js";
 import Joi from "joi";
 export default class ContainerIndex {

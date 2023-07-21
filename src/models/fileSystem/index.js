@@ -12,11 +12,11 @@ export default class ContainerIndexFs {
       if (withId) {
         return routs;
       }
+
       const removeId = routs.reduce((acc, item) => {
         acc[item.name] = item.urlAddres;
         return acc;
       }, {});
-
       return removeId;
     } catch (err) {
       throw err;
@@ -26,9 +26,9 @@ export default class ContainerIndexFs {
     try {
       const allAddresExisting = this.getMyRoutesDb(true);
       let id = 1;
-      let x = allAddresExisting.filter((el) => el.urlAddres === routAdd.urlAddres);
-      if (x.length > 0) {
-        return { msge: "existing rout" };
+      let noRepeat = allAddresExisting.filter((el) => el.urlAddres === routAdd.urlAddres);
+      if (noRepeat.length > 0) {
+        throw new Error("existing rout");
       }
       allAddresExisting.length > 0 &&
         allAddresExisting.forEach((el) => {
@@ -38,7 +38,8 @@ export default class ContainerIndexFs {
       allAddresExisting.push(routAdd);
       const newRout = JSON.stringify(allAddresExisting);
       fs.writeFileSync(this.file, newRout);
-      return allAddresExisting;
+      let userWithId = allAddresExisting;
+      return userWithId;
     } catch (err) {
       throw err;
     }

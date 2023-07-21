@@ -5,10 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js 8081 fs",
+    "dev": "nodemon server.js 8081 ",
     "test": "mocha src/tests/testIndex.js ",
     "test_projects": "mocha src/tests/testCrudProjects.js "
-    
   },
   "author": "Enrique Hernandez Montiel",
   "license": "ISC",
@@ -19,10 +18,12 @@
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "joi": "^17.9.2",
+    "knex": "^2.5.1",
     "luxon": "^3.3.0",
     "nodemailer": "^6.9.3",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
+    "sqlite3": "^5.1.6",
     "winston": "^3.9.0"
   },
   "devDependencies": {

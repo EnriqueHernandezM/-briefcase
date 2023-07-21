@@ -1,5 +1,4 @@
-import { pt_BR } from "@faker-js/faker";
-import { DaoProjects } from "../db/daos/daosFactory.js";
+import { DaoProjects } from "../models/daos/daosFactory.js";
 import Joi from "joi";
 export default class ContainerProjects {
   constructor() {}
@@ -26,7 +25,7 @@ export default class ContainerProjects {
       if (addNewProjects.length) {
         return {
           succes: "true",
-          newProject: addNewProjects,
+          ProjectsActualized: addNewProjects,
         };
       }
     } catch (err) {

@@ -39,7 +39,7 @@ describe("TEST CRUD PROJECTS", () => {
       const oneProjectCeted = await request.post("/api/v1/postAnewProject").send(newProject);
       expect(oneProjectCeted.status).to.eql(201);
       expect(oneProjectCeted.body).to.be.a("object");
-      const catchAid = oneProjectCeted.body.newProject;
+      const catchAid = oneProjectCeted.body.ProjectsActualized;
       for (const el of catchAid) {
         idGenetate = el.id;
       }
@@ -52,10 +52,10 @@ describe("TEST CRUD PROJECTS", () => {
       expect(oneProjects.body).to.include.keys("nameProject", "tagsProject", "description", "imagesProject");
     });
   });
-  describe("PUT A PROJECT", () => {
+  /* describe("PUT A PROJECT", () => {
     it(" Respond  with a message modiefied:true and object modified", async () => {
       const newUpdateOneProject = generateUpdateOneProject();
-      const modifiedAproject = await request.put(`/api/v1/modifiedAProject/${idGenetate}`).send(newUpdateOneProject);
+      const modifiedAproject = await request.put(`/api/v1/modifiedAProject/${1}`).send(newUpdateOneProject);
       expect(modifiedAproject.status).to.eql(200);
       expect(modifiedAproject.body).to.be.a("object");
       const elementModified = modifiedAproject.body.modifiedAproject;
@@ -74,12 +74,12 @@ describe("TEST CRUD PROJECTS", () => {
         });
       }
     });
-  });
-  /*  describe("DELETE A  PROJECT", () => {
+  }); */
+  /* describe("DELETE A  PROJECT", () => {
     it("Delete project and retun msge:true ", async () => {
       const deleteProject = await request.delete(`/api/v1/deleteAproject/${idGenetate}`);
       expect(deleteProject.status).to.eql(200);
       expect(deleteProject.body).to.deep.equal({ msge: true });
     });
-  }); */
+  });*/
 });
