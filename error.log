@@ -593,3 +593,112 @@
 {"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-21T09:27:49.536Z"}
 {"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-21T09:28:33.492Z"}
 {"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-21T09:31:10.325Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: datasProyect is not defined","timestamp":"2023-07-22T07:19:01.192Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: datasProyect is not defined","timestamp":"2023-07-22T07:19:15.538Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-22T07:28:37.179Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: idRecivied is not defined","timestamp":"2023-07-22T07:34:01.650Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: idRecivied is not defined","timestamp":"2023-07-22T07:34:33.158Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: update `images` set `0` = 'https://picsum.photos/seed/OoECaNu/640/480', `1` = 'https://loremflickr.com/640/480?lock=444584687566848', `2` = 'https://loremflickr.com/640/480?lock=4619975320928256', `3` = 'https://loremflickr.com/640/480?lock=6290949776867328' where `imagesId` = '29' - SQLITE_ERROR: no such table: images","timestamp":"2023-07-22T07:35:30.625Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:38:18.964Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:39:05.736Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: select * from `images`.`project` where `imagesId` = '32' - SQLITE_ERROR: no such table: images.project","timestamp":"2023-07-22T07:45:50.817Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: select * from `imagesProject` where `imagesId` = '33' - SQLITE_ERROR: no such table: imagesProject","timestamp":"2023-07-22T07:46:09.624Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: select `id` from `imagesProject` where `imagesId` = '34' - SQLITE_ERROR: no such table: imagesProject","timestamp":"2023-07-22T07:46:57.085Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: select `idImages` from `imagesProject` where `imagesId` = '35' - SQLITE_ERROR: no such table: imagesProject","timestamp":"2023-07-22T07:47:19.927Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:47:52.178Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:51:44.362Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:52:34.920Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:52:53.440Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T07:54:28.056Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T07:57:01.017Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T07:58:27.987Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T07:58:55.823Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T07:59:41.935Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:00:02.870Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:00:33.986Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:01:33.205Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:01:50.155Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:02:27.339Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:02:52.904Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:04:54.709Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: array is not defined","timestamp":"2023-07-22T08:09:05.109Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: array is not defined","timestamp":"2023-07-22T08:09:18.252Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T08:10:01.576Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot convert undefined or null to object","timestamp":"2023-07-22T08:11:08.127Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:11:31.342Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:13:00.780Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:14:24.548Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:14:54.983Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:15:54.576Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:16:37.550Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:16:54.855Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:17:07.061Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:17:41.015Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:18:34.481Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:19:16.548Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:19:21.548Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:19:52.662Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:21:07.351Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:21:26.880Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:22:20.673Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))","timestamp":"2023-07-22T08:22:58.817Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: select `idImages`, `images` from `imagesProjects` where `imagesId` = '73' - SQLITE_ERROR: no such column: images","timestamp":"2023-07-24T21:21:41.246Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: Empty .update() call detected! Update data does not contain any values to update. This will result in a faulty query. Table: imagesProjects. Columns: https://picsum.photos/seed/pFPrT9/640/480.","timestamp":"2023-07-24T23:24:42.465Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: Empty .update() call detected! Update data does not contain any values to update. This will result in a faulty query. Table: imagesProjects. Columns: https://loremflickr.com/640/480?lock=8906839800414208.","timestamp":"2023-07-24T23:30:03.572Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: Empty .update() call detected! Update data does not contain any values to update. This will result in a faulty query. Table: imagesProjects. Columns: https://loremflickr.com/640/480?lock=8903615188041728.","timestamp":"2023-07-24T23:32:04.555Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" must contain less than or equal to 4 items","timestamp":"2023-07-25T00:38:53.325Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: select `idTags` from `tagsProejcts` where `tagsId` = '1' - SQLITE_ERROR: no such table: tagsProejcts","timestamp":"2023-07-25T00:56:02.011Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-07-25T01:16:18.204Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: we still can't delete tags","timestamp":"2023-07-25T01:18:46.485Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-07-25T01:45:12.097Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-07-25T01:46:35.382Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: DaoIndex.deleteOneRoutDb is not a function","timestamp":"2023-07-25T02:11:43.153Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: DaoIndex.deleteOneRoutDb is not a function","timestamp":"2023-07-25T02:39:34.669Z"}
+{"level":"error","message":"err_in_deleteRoutTypeError: DaoIndex.deleteOneRoutDb is not a function","timestamp":"2023-07-25T02:40:36.947Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T02:43:19.770Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T02:44:04.385Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:54:15.762Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:54:57.839Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:56:20.252Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:57:15.228Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:58:30.765Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:58:56.718Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:59:03.373Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:59:07.035Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:59:12.548Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T04:59:23.608Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T05:00:54.045Z"}
+{"level":"error","message":"err_in_controller_postRouteError: existing rout","timestamp":"2023-07-25T05:02:08.208Z"}
+{"level":"error","message":"err_in_controller_postRouteError: existing rout","timestamp":"2023-07-25T05:02:20.779Z"}
+{"level":"error","message":"err_in_controller_postRouteError: existing rout","timestamp":"2023-07-25T05:02:35.200Z"}
+{"level":"error","message":"err_in_controller_postRouteError: existing rout","timestamp":"2023-07-25T05:03:22.531Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T05:04:35.020Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T05:04:36.980Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T05:04:48.386Z"}
+{"level":"error","message":"err_in_deleteRoutError: no id available","timestamp":"2023-07-25T05:04:50.004Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T14:46:05.772Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T14:46:07.751Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T15:04:40.420Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T15:04:52.906Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T15:05:17.800Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T15:06:10.563Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T15:28:43.601Z"}
+{"level":"error","message":"your admin password is missingas query parameter","timestamp":"2023-07-26T15:29:03.326Z"}
+{"level":"error","message":"your admin password is missing as query parameter","timestamp":"2023-07-26T15:29:58.421Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:18:02.730Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:26:39.998Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:26:44.703Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:27:13.338Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:27:50.618Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:28:45.136Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:28:48.628Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:29:15.746Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:29:25.969Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:29:41.875Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:30:02.434Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:30:55.467Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:31:08.058Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:31:28.022Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:31:32.101Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:32:06.504Z"}
+{"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:33:03.921Z"}

@@ -1,12 +1,20 @@
 import aroundConfig from "../config/default.js";
 import session from "express-session";
-//aroundConfig.WORD_SECRET;
+import client from "./redisConfig.js";
+import RedisStore from "connect-redis";
+
+let redisStore = new RedisStore({
+  client: client,
+  prefix: "sessionsBriefcase:",
+});
 
 export default session({
-  secret: aroundConfig.WORD_SECRET,
+  store: redisStore,
+  secret: aroundConfig.wordSecret,
   resave: false,
   saveUninitialized: false,
   cookie: {
-    maxAge: 600000, //sesion 10 min
+    maxAge: 600000,
+    httpOnly: false, //sesion 10 min
   },
 });

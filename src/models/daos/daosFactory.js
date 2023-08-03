@@ -1,6 +1,6 @@
 import logger from "../../utils/loggers.js";
 import aroundConfig from "../../config/default.js";
-const dBforConsole = aroundConfig.DB;
+const dBforConsole = aroundConfig.dbUse;
 import IndexDaoFs from "./index/indexDaoFs.js";
 import IndexDaoSqlite from "./index/indexDaoSqlite.js";
 import ProjectsDaoFs from "./projects/projectsDaoFs.js";

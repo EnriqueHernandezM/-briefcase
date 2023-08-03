@@ -45,9 +45,9 @@ export default class ContainerIndexFs {
     }
   }
 
-  deleteOneRoutDb(id) {
+  async deleteOneRoutDb(id) {
     try {
-      const allAddresExisting = this.getMyRoutesDb(true);
+      const allAddresExisting = await this.getMyRoutesDb(true);
       const catchI = allAddresExisting.findIndex((elId) => elId.id == id);
       if (catchI >= 0) {
         allAddresExisting.splice(catchI, 1);

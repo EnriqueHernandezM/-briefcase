@@ -13,11 +13,10 @@ import { notFound, errorHandler } from "./middleware/error.middleware.js";
 import { index } from "./routers/router.js";
 import { projects } from "./routers/router.js";
 import { auth } from "./routers/auth.js";
-
 //import "./utils/passport/local-auth.js";
 export default class InitServer {
   constructor() {
-    this.PORT = aroundConfig.PORT || process.argv[2];
+    this.PORT = aroundConfig.PORT || process.argv[2] || 8081;
     this.app = app;
     this.httpServer = httpServer;
     this.session = session;
@@ -33,7 +32,7 @@ export default class InitServer {
   }
 
   middlewares() {
-    this.app.use(cors({ origin: "*" }));
+    this.app.use(cors({ origin: true, optionsSuccessStatus: 200, credentials: true }));
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(this.session);

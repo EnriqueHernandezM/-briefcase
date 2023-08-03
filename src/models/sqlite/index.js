@@ -30,10 +30,20 @@ export default class ContainerIndexSqlite {
         throw new Error("existing rout");
       }
       const addNewRout = await knexInstance("index").insert(routAdd, ["id", "name"]);
-      console.log(addNewRout); /* la respuesta me da un array con el iner del largo d efilas */
-      console.log("producto Guardado correctamente");
-      const myRes = await this.getMyRoutesDb();
+      const myRes = await this.getMyRoutesDb(true);
       return myRes;
+    } catch (err) {
+      throw err;
+    }
+  }
+  async deleteOneRoutDb(id) {
+    try {
+      const deleteARout = await knexInstance("index").where("id", "=", id).del();
+      if (deleteARout === 0) {
+        throw new Error("no id available");
+      } else {
+        return { msge: true };
+      }
     } catch (err) {
       throw err;
     }

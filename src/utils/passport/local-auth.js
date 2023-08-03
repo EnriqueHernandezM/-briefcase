@@ -32,6 +32,8 @@ passport.use(
       passReqToCallback: true,
     },
     (req, name, password, done) => {
+      if (req.query.params) {
+      }
       containerAuth.getInfoUser(null, name, (err, user) => {
         if (err) {
           logger.log("info", "Error in SignUp: " + err);
@@ -42,6 +44,7 @@ passport.use(
           return done(null, false);
         }
         const newUser = {
+          user: "admin",
           name: name,
           password: createHash(password),
         };
@@ -71,7 +74,6 @@ passport.use(
       containerAuth.getInfoUser(null, name, (err, user) => {
         if (err) return done(err);
         if (!user) {
-          console.log(user);
           logger.log("info", `User Not Found with name  ${name}`);
           return done(null, false);
         }

@@ -39,7 +39,6 @@ export default class ContainerAuth {
   }
 
   async addOneAdmin(myAdmin, funcRes) {
-    //responder con array el Dao
     try {
       const addMyAdmin = await DaoAuth.createdAdminDb(myAdmin);
       if (addMyAdmin.length > 0) {
