@@ -6,6 +6,7 @@ import aroundConfig from "./config/default.js";
 import logger from "./utils/loggers.js";
 const httpServer = http.createServer(app);
 import createTablesSqlite from "./models/sqlite/options/createTableSqlite.js";
+import fileUpload from "express-fileupload";
 import passport from "passport";
 import "./utils/passport/local-auth.js";
 import session from "./utils/configSession.js";
@@ -33,6 +34,13 @@ export default class InitServer {
 
   middlewares() {
     this.app.use(cors({ origin: true, optionsSuccessStatus: 200, credentials: true }));
+    this.app.use(express.static("public"));
+    this.app.use(
+      fileUpload({
+        useTempFiles: true,
+        tempFileDir: "/tmp/",
+      })
+    );
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(this.session);

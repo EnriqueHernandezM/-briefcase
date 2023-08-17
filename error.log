@@ -702,3 +702,109 @@
 {"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:31:32.101Z"}
 {"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:32:06.504Z"}
 {"level":"error","message":"err_in_Redis function () { [native code] }","timestamp":"2023-07-31T23:33:03.921Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-07T19:21:07.004Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-09T14:15:00.310Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-09T14:23:43.401Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-09T14:33:21.839Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: dataOfProject.imagesProject.forEach is not a function","timestamp":"2023-08-09T15:31:56.907Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-08-09T15:35:57.093Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: file is not defined","timestamp":"2023-08-09T15:43:55.181Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: File is not defined","timestamp":"2023-08-09T15:44:02.112Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'file' of 'req.files' as it is undefined.","timestamp":"2023-08-09T15:58:13.259Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'file' of 'req.file' as it is undefined.","timestamp":"2023-08-09T15:58:25.039Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'files' of 'req.files' as it is undefined.","timestamp":"2023-08-09T15:58:36.511Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'file' of 'req.files' as it is undefined.","timestamp":"2023-08-09T16:00:31.842Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: file is not defined","timestamp":"2023-08-09T16:02:11.276Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'files' of 'req.files' as it is undefined.","timestamp":"2023-08-09T16:03:51.454Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'files' of 'req.files' as it is undefined.","timestamp":"2023-08-09T16:24:28.788Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'files')","timestamp":"2023-08-09T16:52:42.917Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'file' of 'req.files.file' as it is undefined.","timestamp":"2023-08-09T17:01:15.970Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:02:02.003Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:03:01.659Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:03:20.656Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:03:29.390Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:04:01.467Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:04:21.541Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:04:34.857Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of null (reading 'file')","timestamp":"2023-08-09T17:04:54.363Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:05:37.256Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:06:28.541Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:06:34.360Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:06:38.602Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:06:43.643Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-09T17:07:00.506Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of null (reading 'file')","timestamp":"2023-08-09T17:07:46.796Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of null (reading 'file')","timestamp":"2023-08-09T17:08:00.222Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading '0')","timestamp":"2023-08-09T17:33:31.844Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'images')","timestamp":"2023-08-09T17:37:31.851Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'imagesProject')","timestamp":"2023-08-09T17:37:43.303Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: body is not defined","timestamp":"2023-08-09T17:38:31.314Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'file' of 'req.files' as it is null.","timestamp":"2023-08-09T19:25:09.053Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:26:03.802Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:30:24.203Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:32:21.712Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:36:15.602Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:37:03.100Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:39:14.762Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:39:30.377Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:39:40.353Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:40:25.561Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:40:35.646Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:41:03.059Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:41:34.030Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:45:06.951Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: command.resolveMiddleware is not a function","timestamp":"2023-08-09T19:45:23.119Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:48:26.315Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:49:00.056Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:49:29.542Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:50:00.223Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:50:18.030Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:51:03.060Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: storage.upload is not a function","timestamp":"2023-08-09T19:53:16.701Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: command.resolveMiddleware is not a function","timestamp":"2023-08-09T19:53:26.364Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: command.resolveMiddleware is not a function","timestamp":"2023-08-09T19:53:58.608Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: command.resolveMiddleware is not a function","timestamp":"2023-08-09T19:55:15.093Z"}
+{"level":"error","message":"err_in_controller_post_new_project:EndpointError: Invalid region: region was not a valid DNS name.","timestamp":"2023-08-09T20:08:48.114Z"}
+{"level":"error","message":"err_in_controller_post_new_project:EndpointError: Invalid region: region was not a valid DNS name.","timestamp":"2023-08-09T20:09:13.647Z"}
+{"level":"error","message":"err_in_controller_post_new_project:EndpointError: Invalid region: region was not a valid DNS name.","timestamp":"2023-08-09T20:09:25.864Z"}
+{"level":"error","message":"err_in_controller_post_new_project:CredentialsProviderError: Could not load credentials from any providers","timestamp":"2023-08-09T20:10:54.957Z"}
+{"level":"error","message":"err_in_controller_post_new_project:CredentialsProviderError: Could not load credentials from any providers","timestamp":"2023-08-09T20:10:59.815Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'file' of 'req.files' as it is null.","timestamp":"2023-08-10T13:57:13.901Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'files' of 'req.files' as it is null.","timestamp":"2023-08-10T13:57:33.933Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: file is not defined","timestamp":"2023-08-10T13:58:43.514Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: body.forOf is not a function","timestamp":"2023-08-10T14:19:07.661Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'files')","timestamp":"2023-08-10T14:19:51.973Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'files')","timestamp":"2023-08-10T14:19:51.989Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'file')","timestamp":"2023-08-10T14:19:57.300Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'File')","timestamp":"2023-08-10T14:20:09.649Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'name')","timestamp":"2023-08-10T14:20:20.875Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: body.forEach is not a function","timestamp":"2023-08-10T14:24:19.553Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of null (reading 'forEach')","timestamp":"2023-08-10T14:24:36.825Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of null (reading 'forEach')","timestamp":"2023-08-10T14:24:53.350Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot convert object to primitive value","timestamp":"2023-08-10T14:38:16.949Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot convert object to primitive value","timestamp":"2023-08-10T14:38:16.956Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot convert object to primitive value","timestamp":"2023-08-10T14:38:17.886Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot convert object to primitive value","timestamp":"2023-08-10T14:38:17.889Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: body is not defined","timestamp":"2023-08-10T14:38:40.513Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: body is not defined","timestamp":"2023-08-10T14:38:40.521Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: al is not defined","timestamp":"2023-08-10T14:48:55.107Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot destructure property 'all' of 'req.body.body' as it is undefined.","timestamp":"2023-08-10T14:49:24.629Z"}
+{"level":"error","message":"err_in_controller_post_new_project:SyntaxError: Unexpected token o in JSON at position 1","timestamp":"2023-08-10T14:49:43.501Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: files is not iterable","timestamp":"2023-08-10T15:15:30.751Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'forEach')","timestamp":"2023-08-10T16:48:29.118Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: files.files.forEach is not a function","timestamp":"2023-08-10T17:09:29.455Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of null (reading 'files')","timestamp":"2023-08-10T23:22:38.397Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: files.files.map is not a function","timestamp":"2023-08-10T23:23:24.020Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: files.files.map is not a function","timestamp":"2023-08-10T23:23:50.509Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: files.files.map is not a function","timestamp":"2023-08-10T23:24:06.429Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-08-10T23:25:43.657Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"tagsProject\" must be an array","timestamp":"2023-08-10T23:26:20.384Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'files')","timestamp":"2023-08-11T01:36:07.887Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: body is not defined","timestamp":"2023-08-11T01:37:37.700Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: files.files.map is not a function","timestamp":"2023-08-11T01:38:02.581Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: files.files.map is not a function","timestamp":"2023-08-11T01:38:34.836Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: files.files.map is not a function","timestamp":"2023-08-11T01:39:07.211Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of null (reading 'files')","timestamp":"2023-08-17T20:19:30.243Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-17T20:20:55.343Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-17T20:22:45.196Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: we still can't delete images","timestamp":"2023-08-17T20:23:15.826Z"}

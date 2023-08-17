@@ -1,5 +1,7 @@
 import { DaoProjects } from "../models/daos/daosFactory.js";
 import Joi from "joi";
+import uploadToBucket from "../utils/s3.js";
+import aroundConfig from "../config/default.js";
 export default class ContainerProjects {
   constructor() {}
   async getAllProjects() {
@@ -18,13 +20,21 @@ export default class ContainerProjects {
       throw err;
     }
   }
-  async newProject(dataOfProject) {
+  async newProject(dataOfProject, files) {
     try {
+      const arrIMages = await Promise.all(
+        files.files.map(async (file) => {
+          const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
+          return storeImages;
+        })
+      );
+      dataOfProject.tagsProject = dataOfProject.tagsProject.split(",");
+      dataOfProject.imagesProject = arrIMages;
       ContainerProjects.checkElementsProject(dataOfProject);
       const addNewProjects = await DaoProjects.newProyectDb(dataOfProject);
       if (addNewProjects.length) {
         return {
-          succes: "true",
+          succes: true,
           ProjectsActualized: addNewProjects,
         };
       }
@@ -32,8 +42,16 @@ export default class ContainerProjects {
       throw err;
     }
   }
-  async updateAproject(idToUpdate, dataForModified) {
+  async updateAproject(idToUpdate, dataForModified, files) {
     try {
+      const arrIMages = await Promise.all(
+        files.files.map(async (file) => {
+          const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
+          return storeImages;
+        })
+      );
+      dataForModified.imagesProject = arrIMages;
+      dataForModified.tagsProject = dataForModified.tagsProject.split(",");
       ContainerProjects.checkElementsProject(dataForModified);
       const modifiedAproject = await DaoProjects.updateAprojectDb(idToUpdate, dataForModified);
       if (Object.entries(modifiedAproject).length > 0) {

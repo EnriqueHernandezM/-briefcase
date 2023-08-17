@@ -15,7 +15,7 @@ const checkAuthentication = (req, res, next) => {
     next();
   } else {
     logger.log("info", { ruta: req.originalUrl, metodo: req.route.methods });
-    res.redirect("/api/V1/signUpAdmin");
+    res.status(401).json({ session: false, msge: "go to login" });
   }
 };
 

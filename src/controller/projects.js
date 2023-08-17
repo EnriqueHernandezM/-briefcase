@@ -1,7 +1,7 @@
 import ContainerProjects from "../services/projects.js";
 import logger from "../utils/loggers.js";
 const containerProjects = new ContainerProjects();
-
+import uploadBucket from "../utils/s3.js";
 async function getAllMyProjects(req, res, next) {
   try {
     const getDataForProjects = await containerProjects.getAllProjects();
@@ -23,8 +23,13 @@ async function getOneProjectById(req, res, next) {
 }
 async function postNewProject(req, res, next) {
   try {
-    const { body } = req;
-    const answerOfCreate = await containerProjects.newProject(body);
+    const { nameProject } = req.body;
+    const { description } = req.body;
+    const { urlProject } = req.body;
+    const { tagsProject } = req.body;
+    const bodyForm = { nameProject, description, urlProject, tagsProject };
+    const { files } = req;
+    const answerOfCreate = await containerProjects.newProject(bodyForm, files);
     res.status(201).json(answerOfCreate);
   } catch (err) {
     logger.log("error", `err_in_controller_post_new_project:${err}`);
@@ -34,9 +39,13 @@ async function postNewProject(req, res, next) {
 async function putOneProject(req, res, next) {
   try {
     const { id } = req.params;
-    const { body } = req;
-    const answerOfPutAproject = await containerProjects.updateAproject(id, body);
-
+    const { nameProject } = req.body;
+    const { description } = req.body;
+    const { urlProject } = req.body;
+    const { tagsProject } = req.body;
+    const bodyForm = { nameProject, description, urlProject, tagsProject };
+    const { files } = req;
+    const answerOfPutAproject = await containerProjects.updateAproject(id, bodyForm, files || []);
     res.status(200).json(answerOfPutAproject);
   } catch (err) {
     logger.log("error", `err_in_controller_put_project:${err}`);
