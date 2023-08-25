@@ -13,8 +13,7 @@ import session from "./utils/configSession.js";
 import { notFound, errorHandler } from "./middleware/error.middleware.js";
 import { index } from "./routers/router.js";
 import { projects } from "./routers/router.js";
-import { auth } from "./routers/auth.js";
-//import "./utils/passport/local-auth.js";
+import { auth } from "./routers/router.js";
 export default class InitServer {
   constructor() {
     this.PORT = aroundConfig.PORT || process.argv[2] || 8081;
@@ -33,7 +32,7 @@ export default class InitServer {
   }
 
   middlewares() {
-    this.app.use(cors({ origin: true, optionsSuccessStatus: 200, credentials: true }));
+    this.app.use(cors({ origin: aroundConfig.originCors, optionsSuccessStatus: 200, credentials: true }));
     this.app.use(express.static("public"));
     this.app.use(
       fileUpload({

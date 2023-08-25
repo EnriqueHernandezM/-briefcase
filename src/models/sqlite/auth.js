@@ -6,7 +6,7 @@ export default class ContainerAuthSqlite {
   }
   async getMyUserDb() {
     try {
-      const userExistingSqlite = await knexInstance("admin").select("*");
+      const userExistingSqlite = await knexInstance(this.file).select("*");
       const user = userExistingSqlite ? userExistingSqlite : [];
       return user;
     } catch (err) {
@@ -15,7 +15,7 @@ export default class ContainerAuthSqlite {
   }
   async createdAdminDb(objectAdmin) {
     try {
-      const createAdmin = await knexInstance("admin").insert(objectAdmin, ["user", "name", "password", "id"]);
+      const createAdmin = await knexInstance(this.file).insert(objectAdmin, ["user", "name", "password", "id"]);
       return createAdmin;
     } catch (err) {
       throw err;

@@ -1,5 +1,5 @@
 const notFound = (req, res, next) => {
-  const err = new Error(`Not foun  - ${req.originalUrl}`);
+  const err = new Error(`Not found - ${req.originalUrl}`);
   res.status(400);
   next(err);
 };
@@ -9,7 +9,6 @@ const errorHandler = (err, req, res, next) => {
   res.status(statusCode).json({
     status: statusCode,
     message: err.message,
-    stack: err.stack,
   });
 };
 

@@ -1,5 +1,4 @@
 import { DaoAuth } from "../models/daos/daosFactory.js";
-import Joi from "joi";
 export default class ContainerAuth {
   constructor() {}
   async getInfoUser(idRecib, name, funcGetUser) {
@@ -16,7 +15,6 @@ export default class ContainerAuth {
           funcGetUser(null, el);
         } else {
           funcGetUser(null, false);
-          //return new Error("not user");
         }
       }
     } catch (err) {
@@ -37,7 +35,6 @@ export default class ContainerAuth {
       throw err;
     }
   }
-
   async addOneAdmin(myAdmin, funcRes) {
     try {
       const addMyAdmin = await DaoAuth.createdAdminDb(myAdmin);

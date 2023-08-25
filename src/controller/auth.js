@@ -8,8 +8,8 @@ async function getLogin(req, res, next) {
         msge: "user login",
       });
     } else {
-      const toLog = { session: false, msge: "visit login to connect" };
-      res.status(401).json(toLog);
+      const toLogMsge = { session: false, msge: "visit login to connect" };
+      res.status(401).json(toLogMsge);
     }
   } catch (err) {
     logger.log("error", `err_in_auth_get_login:${err}`);
@@ -24,10 +24,11 @@ async function postLogin(req, res, next) {
         msge: "user login",
       });
     } else {
-      res.status(401).json({
+      const toLogMsge = {
         session: false,
         msge: "user not login",
-      });
+      };
+      res.status(401).json(toLogMsge);
     }
   } catch (err) {
     logger.log("error", `err_in_auth_post_login:${err}`);
@@ -43,10 +44,11 @@ async function getSignUpAdmin(req, res, next) {
         msge: "Admin Active",
       });
     } else {
-      res.status(401).json({
+      const toAdminMsge = {
         session: false,
         msge: "Admin not Active",
-      });
+      };
+      res.status(401).json(toAdminMsge);
     }
   } catch (err) {
     logger.log("error", `err_in_auth_get_sign_up_admin:${err}`);
@@ -61,10 +63,8 @@ async function postSignUpAdmin(req, res, next) {
         msge: "Admin created",
       });
     } else {
-      res.status(401).json({
-        session: false,
-        msge: "user not login",
-      });
+      const toAdminMsge = { session: false, msge: "Admin not created" };
+      res.status(401).json(toAdminMsge);
     }
   } catch (err) {
     logger.log("error", `err_in_auth_post_sign_uo_admin:${err}`);

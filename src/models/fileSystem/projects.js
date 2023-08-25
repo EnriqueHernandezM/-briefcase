@@ -1,4 +1,3 @@
-import { th } from "@faker-js/faker";
 import fs from "fs";
 
 export default class ContainerProyectsFs {

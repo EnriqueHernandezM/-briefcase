@@ -46,10 +46,9 @@ const rutaResult = {
   [instancia[1].description]: instancia[1].name,
   [instancia[2].description]: instancia[2].name,
 };
-logger.log("info", `✅ Conectado ah la DB ${dBforConsole}`);
-
+logger.log("info", `✅ Conect to DB ${dBforConsole}`);
+const DaoAuth = new rutaResult.auth();
 const DaoIndex = new rutaResult.index();
 const DaoProjects = new rutaResult.projects();
-const DaoAuth = new rutaResult.auth();
 
 export { DaoIndex, DaoProjects, DaoAuth };

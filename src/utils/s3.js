@@ -1,10 +1,10 @@
 import { S3Client, PutObjectCommand, GetObjectCommand } from "@aws-sdk/client-s3";
-import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import aroundConfig from "../config/default.js";
 import fs from "fs";
 const region = aroundConfig.awsRegionBucket;
 const accessKeyId = aroundConfig.accesKeyId;
 const secretAccessKey = aroundConfig.accesKeySecret;
+
 const storage = new S3Client({
   region,
   credentials: {

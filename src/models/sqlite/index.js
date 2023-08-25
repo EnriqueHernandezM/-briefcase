@@ -5,14 +5,13 @@ export default class ContainerIndexSqlite {
     this.file = file;
   }
 
-  async getMyRoutesDb(withId) {
+  async getMyRoutesDb() {
     try {
-      const routesExitingMySqlte = await knexInstance("index").select("*");
+      const routesExitingMySqlte = await knexInstance(this.file).select("*");
       const routsOk = routesExitingMySqlte ? routesExitingMySqlte : [];
       if (withId) {
         return routsOk;
       }
-
       const removeIdRouts = routsOk.reduce((acc, item) => {
         acc[item.name] = item.urlAddres;
         return acc;
@@ -29,7 +28,7 @@ export default class ContainerIndexSqlite {
       if (noRepeat.length > 0) {
         throw new Error("existing rout");
       }
-      const addNewRout = await knexInstance("index").insert(routAdd, ["id", "name"]);
+      await knexInstance(this.file).insert(routAdd, ["id", "name"]);
       const myRes = await this.getMyRoutesDb(true);
       return myRes;
     } catch (err) {
@@ -38,7 +37,7 @@ export default class ContainerIndexSqlite {
   }
   async deleteOneRoutDb(id) {
     try {
-      const deleteARout = await knexInstance("index").where("id", "=", id).del();
+      const deleteARout = await knexInstance(this.file).where("id", "=", id).del();
       if (deleteARout === 0) {
         throw new Error("no id available");
       } else {

@@ -22,12 +22,20 @@ export default class ContainerProjects {
   }
   async newProject(dataOfProject, files) {
     try {
-      const arrIMages = await Promise.all(
-        files.files.map(async (file) => {
-          const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
-          return storeImages;
-        })
-      );
+      if (aroundConfig.dbUse === "sQlite" && files.length < 1) {
+        throw new Error("no images files");
+      }
+      let arrIMages;
+      if (dataOfProject.imagesProject === undefined) {
+        arrIMages = await Promise.all(
+          files.files.map(async (file) => {
+            const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
+            return storeImages;
+          })
+        );
+      } else if (files.length < 1) {
+        arrIMages = dataOfProject.imagesProject;
+      }
       dataOfProject.tagsProject = dataOfProject.tagsProject.split(",");
       dataOfProject.imagesProject = arrIMages;
       ContainerProjects.checkElementsProject(dataOfProject);
@@ -44,13 +52,21 @@ export default class ContainerProjects {
   }
   async updateAproject(idToUpdate, dataForModified, files) {
     try {
-      const arrIMages = await Promise.all(
-        files.files.map(async (file) => {
-          const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
-          return storeImages;
-        })
-      );
-      dataForModified.imagesProject = arrIMages;
+      if (aroundConfig.dbUse === "sQlite" && files.length < 1) {
+        throw new Error("no images files");
+      }
+      let arrImagesUpdate;
+      if (dataForModified.imagesProject === undefined) {
+        arrImagesUpdate = await Promise.all(
+          files.files.map(async (file) => {
+            const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
+            return storeImages;
+          })
+        );
+      } else if (files.length < 1) {
+        arrImagesUpdate = dataForModified.imagesProject;
+      }
+      dataForModified.imagesProject = arrImagesUpdate;
       dataForModified.tagsProject = dataForModified.tagsProject.split(",");
       ContainerProjects.checkElementsProject(dataForModified);
       const modifiedAproject = await DaoProjects.updateAprojectDb(idToUpdate, dataForModified);
@@ -81,9 +97,9 @@ export default class ContainerProjects {
   }
   static validar(project) {
     const CreateProjectSchema = Joi.object({
-      nameProject: Joi.string().min(1).max(40).required(),
-      tagsProject: Joi.array().max(10).items(Joi.string()).required(),
-      description: Joi.string().min(5).max(190).required(),
+      nameProject: Joi.string().min(1).max(50).required(),
+      tagsProject: Joi.array().max(15).items(Joi.string()).required(),
+      description: Joi.string().min(5).max(230).required(),
       imagesProject: Joi.array().max(4).items(Joi.string()).required(),
       urlProject: Joi.string().required(),
     });

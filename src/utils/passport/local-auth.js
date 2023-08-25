@@ -3,7 +3,6 @@ import LocalS from "passport-local";
 const LocalStrategy = LocalS.Strategy;
 import bcrypt from "bcrypt";
 import logger from "../loggers.js";
-import fs from "fs";
 import ContainerAuth from "../../services/auth.js";
 const containerAuth = new ContainerAuth();
 ///////
@@ -14,11 +13,11 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser(async (id, done) => {
   containerAuth.getInfoUserToDeserialized(id, done);
 });
+
 function isValidPassword(user, password) {
   return bcrypt.compareSync(password, user.password);
 }
-/////
-////toencrypt password
+
 function createHash(password) {
   return bcrypt.hashSync(password, bcrypt.genSaltSync(10), null);
 }

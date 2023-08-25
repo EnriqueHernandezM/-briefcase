@@ -27,9 +27,10 @@ async function postNewProject(req, res, next) {
     const { description } = req.body;
     const { urlProject } = req.body;
     const { tagsProject } = req.body;
-    const bodyForm = { nameProject, description, urlProject, tagsProject };
+    const { imagesProject } = req.body;
+    const bodyForm = { nameProject, description, urlProject, tagsProject, imagesProject };
     const { files } = req;
-    const answerOfCreate = await containerProjects.newProject(bodyForm, files);
+    const answerOfCreate = await containerProjects.newProject(bodyForm, files || []);
     res.status(201).json(answerOfCreate);
   } catch (err) {
     logger.log("error", `err_in_controller_post_new_project:${err}`);
@@ -43,7 +44,8 @@ async function putOneProject(req, res, next) {
     const { description } = req.body;
     const { urlProject } = req.body;
     const { tagsProject } = req.body;
-    const bodyForm = { nameProject, description, urlProject, tagsProject };
+    const { imagesProject } = req.body;
+    const bodyForm = { nameProject, description, urlProject, tagsProject, imagesProject };
     const { files } = req;
     const answerOfPutAproject = await containerProjects.updateAproject(id, bodyForm, files || []);
     res.status(200).json(answerOfPutAproject);

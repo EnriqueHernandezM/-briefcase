@@ -12,7 +12,6 @@ export default class ContainerIndexFs {
       if (withId) {
         return routs;
       }
-
       const removeId = routs.reduce((acc, item) => {
         acc[item.name] = item.urlAddres;
         return acc;

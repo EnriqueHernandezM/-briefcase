@@ -22,7 +22,6 @@ export default class ContainerProjectsSqlite {
           };
         })
       );
-
       return actualProjects;
     } catch (err) {
       throw err;
@@ -99,11 +98,11 @@ export default class ContainerProjectsSqlite {
       };
       const arrUpdateForTableImages = dataUpdate.imagesProject;
       const arrUpdateforTableTags = dataUpdate.tagsProject;
-      const modifiedAprojectSqlite = await knexInstance("projects").where("id", "=", idToUpdate).update(elementsUpdateForTableProjects);
+      const modifiedAprojectSqlite = await knexInstance(this.file).where("id", "=", idToUpdate).update(elementsUpdateForTableProjects);
       if (modifiedAprojectSqlite === 0) {
         throw new Error("no id available");
       }
-      //traer id existentes para modificar cada imagen
+      //get id existing to modified images
       const getIdsForEachImage = await knexInstance.select("idImages").from("imagesProjects").where("imagesId", "=", idToUpdate);
       const getIdsForEachTags = await knexInstance.select("idTags").from("tagsProjects").where("tagsId", "=", idToUpdate);
       let haveMoreImages;
@@ -128,7 +127,7 @@ export default class ContainerProjectsSqlite {
           );
         }
       }
-      //desde aqui se hace update a tags
+      //from here init update tags
       getIdsForEachTags.forEach(async (tagsExisisting, i, arr) => {
         if (arrUpdateforTableTags.length > arr.length) {
           haveMoreTags = arr.length;
@@ -150,8 +149,8 @@ export default class ContainerProjectsSqlite {
       if (createdErr) {
         throw createdErr;
       }
-      let getProjetc = await this.getAprojectByIdDb(idToUpdate);
-      return getProjetc;
+      let getProjetctRes = await this.getAprojectByIdDb(idToUpdate);
+      return getProjetctRes;
     } catch (err) {
       throw err;
     }

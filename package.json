@@ -5,9 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js 8081 ",
+    "start":"set DB=sQlite&& nodemon server.js 8081",
+    "dev": "set DB=fs&& nodemon server.js 8081",
     "test": "mocha src/tests/testIndex.js ",
-    "test_projects": "mocha src/tests/testCrudProjects.js "
+    "test_projects_not_s3": "mocha src/tests/testCrudProjects.js false",
+    "test_projects_with_s3": "mocha src/tests/testCrudProjects.js true"
   },
   "author": "Enrique Hernandez Montiel",
   "license": "ISC",
