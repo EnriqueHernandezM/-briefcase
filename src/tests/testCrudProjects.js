@@ -34,7 +34,7 @@ const filePathImg2 = `src/tests/imagesTest/startGold.png`;
 describe("TEST CRUD PROJECTS", () => {
   describe("GET ALL PROJECTS", () => {
     it("will respond with a array of all projects and status 200", async () => {
-      const allProjects = await request.get("/api/v1/getAllProjects");
+      const allProjects = await request.get("/api_briefcase/v1/getAllProjects");
       expect(allProjects.status).to.eql(200);
       expect(allProjects.body).to.be.a("array");
     });
@@ -46,7 +46,7 @@ describe("TEST CRUD PROJECTS", () => {
       switch (withS3) {
         case "true":
           oneProjectCreated = await request
-            .post("/api/v1/postAnewProject")
+            .post("/api_briefcase/v1/postAnewProject")
             .field("tagsProject", tagsProject)
             .field("description", description)
             .field("nameProject", nameProject)
@@ -55,7 +55,7 @@ describe("TEST CRUD PROJECTS", () => {
             .attach("files", filePathImg2);
           break;
         case "false":
-          oneProjectCreated = await request.post("/api/v1/postAnewProject").send(newProject);
+          oneProjectCreated = await request.post("/api_briefcase/v1/postAnewProject").send(newProject);
           break;
       }
       expect(oneProjectCreated.status).to.eql(201);
@@ -68,7 +68,7 @@ describe("TEST CRUD PROJECTS", () => {
   });
   describe("GET A PROJECT BY ID", () => {
     it("Will respond with a object of a project", async () => {
-      const oneProjects = await request.get(`/api/v1/getAProject/${idGenerate}`);
+      const oneProjects = await request.get(`/api_briefcase/v1/getAProject/${idGenerate}`);
       expect(oneProjects.status).to.eql(200);
       expect(oneProjects.body).to.include.keys("nameProject", "tagsProject", "description", "imagesProject");
     });
@@ -80,7 +80,7 @@ describe("TEST CRUD PROJECTS", () => {
       switch (withS3) {
         case "true":
           modifiedAProject = await request
-            .put(`/api/v1/modifiedAProject/${idGenerate}`)
+            .put(`/api_briefcase/v1/modifiedAProject/${idGenerate}`)
             .field("tagsProject", tagsProject)
             .field("description", description)
             .field("nameProject", nameProject)
@@ -89,7 +89,7 @@ describe("TEST CRUD PROJECTS", () => {
             .attach("file", filePathImg2);
           break;
         case "false":
-          modifiedAProject = await request.put(`/api/v1/modifiedAProject/${idGenerate}`).send(newUpdateOneProject);
+          modifiedAProject = await request.put(`/api_briefcase/v1/modifiedAProject/${idGenerate}`).send(newUpdateOneProject);
           break;
       }
       expect(modifiedAproject.status).to.eql(200);
@@ -113,7 +113,7 @@ describe("TEST CRUD PROJECTS", () => {
   });
   describe("DELETE A  PROJECT", () => {
     it("Delete project and retun msge:true ", async () => {
-      const deleteProject = await request.delete(`/api/v1/deleteAproject/${idGenerate}`);
+      const deleteProject = await request.delete(`/api_briefcase/v1/deleteAproject/${idGenerate}`);
       expect(deleteProject.status).to.eql(200);
       expect(deleteProject.body).to.deep.equal({ msge: true });
     });

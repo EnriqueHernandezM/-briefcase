@@ -11,7 +11,7 @@ const generateUrl = () => {
 describe("test Api", () => {
   describe("GET ALL ROUTES", () => {
     it("should respond with status 200 and be an array", async () => {
-      const res = await request.get("/api/v1");
+      const res = await request.get("/api_briefcase/v1");
       expect(res.status).to.eql(200);
       expect(res.body).to.be.a("object");
       //   expect(res.body).to.eql({ version: '0.0.1' });
@@ -20,7 +20,7 @@ describe("test Api", () => {
   describe("POST NEW ROUT", () => {
     it("should respond with an array inside an object", async () => {
       const newUrl = generateUrl();
-      const res = await request.post("/api/v1").send(newUrl);
+      const res = await request.post("/api_briefcase/v1").send(newUrl);
       expect(res.status).to.eql(201);
       expect(res.body).to.be.a("object");
       expect(res.body).to.include.keys("succes", "newRout");
@@ -33,7 +33,7 @@ describe("test Api", () => {
 
   describe("DELETE ROUT", () => {
     it("Delet rout created and return msge:true", async () => {
-      const res = await request.delete(`/api/v1/?deleteRoutId=${idGenerate}`);
+      const res = await request.delete(`/api_briefcase/v1/?deleteRoutId=${idGenerate}`);
       expect(res.status).to.eql(200);
       expect(res.body).to.be.a("object");
       expect(res.body).to.deep.equal({ msge: true });

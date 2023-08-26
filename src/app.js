@@ -47,9 +47,9 @@ export default class InitServer {
     this.app.use(passport.session());
   }
   routes() {
-    this.app.use("/api", index);
-    this.app.use("/api/v1", projects);
-    this.app.use("/api/v1", auth);
+    this.app.use("/api_briefcase", index);
+    this.app.use("/api_briefcase/v1", projects);
+    this.app.use("/api_briefcase/v1", auth);
     this.app.use(this.notFound);
     this.app.use(this.errorHandler);
   }
