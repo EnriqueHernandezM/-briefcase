@@ -1711,3 +1711,245 @@
 {"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-24T20:57:22.521Z"}
 {"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-24T20:58:02.513Z"}
 {"level":"error","message":"err_in_controller_post_new_project:ReferenceError: storeImages is not defined","timestamp":"2023-08-24T20:58:39.837Z"}
+{"level":"error","message":"err_in_controller_post_new_project:NoSuchBucket: The specified bucket does not exist","timestamp":"2023-08-27T06:32:49.712Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T06:32:49.730Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-27T06:32:49.744Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T06:32:49.762Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-27T06:41:00.972Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-27T06:43:50.817Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-27T06:46:55.032Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: files.files.map is not a function","timestamp":"2023-08-27T08:17:04.497Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: files.files.map is not a function","timestamp":"2023-08-27T08:17:55.952Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'split')","timestamp":"2023-08-27T08:18:40.488Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-27T08:30:39.548Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:30:39.558Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-27T08:30:39.579Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:30:39.589Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:33:43.255Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:33:43.271Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:33:43.496Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:33:43.505Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:34:15.359Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:34:15.375Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:34:15.565Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:34:15.581Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:36:45.142Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:36:45.158Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:36:45.420Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:36:45.430Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:37:27.002Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:37:27.019Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:37:27.242Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:37:27.256Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:38:33.706Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:38:33.726Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: file is not defined","timestamp":"2023-08-27T08:38:33.758Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:38:33.773Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject[0]\" must be a string","timestamp":"2023-08-27T08:38:55.546Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:38:55.563Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" must be an array","timestamp":"2023-08-27T08:38:55.598Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: no images files","timestamp":"2023-08-27T08:56:39.171Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T08:56:39.188Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no images files","timestamp":"2023-08-27T08:56:39.202Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T08:56:39.215Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: nameBucke is not defined","timestamp":"2023-08-27T09:54:42.996Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T09:54:43.016Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: nameBucke is not defined","timestamp":"2023-08-27T09:54:43.216Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T09:54:43.233Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ReferenceError: dataForModified is not defined","timestamp":"2023-08-27T10:00:42.553Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T10:00:42.565Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-08-27T10:00:42.580Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T10:00:42.585Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-27T10:02:45.506Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T10:02:45.521Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-27T10:02:45.539Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T10:02:45.553Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-27T10:03:32.819Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'split')","timestamp":"2023-08-27T10:08:29.002Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"description\" is required","timestamp":"2023-08-27T10:08:56.387Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"description\" is required","timestamp":"2023-08-27T10:09:24.287Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: in fs dont  acept files","timestamp":"2023-08-27T10:13:03.126Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T10:13:03.137Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-08-27T10:13:03.762Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T10:13:03.771Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T10:21:22.800Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T10:21:23.417Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T10:22:05.551Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T10:22:06.181Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-27T10:22:28.921Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-27T10:22:28.934Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: in fs dont acept files","timestamp":"2023-08-28T01:08:16.435Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:08:16.453Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-08-28T01:08:17.598Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:08:17.606Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: In fs dont acept files","timestamp":"2023-08-28T01:09:51.806Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:09:51.817Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: in fs dont acept files","timestamp":"2023-08-28T01:09:51.843Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:09:51.857Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:10:59.561Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:10:59.580Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:10:59.599Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:10:59.611Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:11:27.145Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:11:27.160Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:11:27.174Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:11:27.186Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:13:39.815Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:13:39.836Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:13:39.852Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:13:39.867Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:14:19.881Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:14:19.893Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:14:19.902Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:14:19.915Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:14:40.248Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:14:40.269Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:14:40.283Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:14:40.296Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:15:58.333Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:15:58.349Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:15:58.362Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:15:58.371Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:16:17.252Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:16:17.263Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:16:17.273Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:16:17.286Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:18:00.389Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:18:00.405Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-08-28T01:18:00.424Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:18:00.439Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:18:25.364Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:18:25.374Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-08-28T01:18:25.383Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:18:25.397Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:18:46.074Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:18:46.089Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-08-28T01:18:46.104Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:18:46.115Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:20:27.934Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:20:27.950Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-08-28T01:20:27.965Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:20:27.977Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:21:10.659Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:21:10.672Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-08-28T01:21:10.681Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:21:10.695Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:21:34.148Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:21:34.161Z"}
+{"level":"error","message":"err_in_controller_put_project:ReferenceError: dataOfProject is not defined","timestamp":"2023-08-28T01:21:34.175Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:21:34.181Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:22:38.427Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:22:38.441Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:22:38.450Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:22:38.463Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:23:16.699Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:23:16.708Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:23:16.717Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:23:16.725Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:23:29.626Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:23:29.640Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:23:29.658Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:23:29.673Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:26:22.481Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:28:52.428Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:32:05.750Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:32:05.765Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:32:05.782Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:32:05.793Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:33:33.400Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:33:33.415Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:33:33.435Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:33:33.447Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:33:43.866Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:33:43.879Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:33:43.899Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:33:43.913Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: In fs dont acept files only array","timestamp":"2023-08-28T01:34:20.178Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:34:20.190Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:34:20.216Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:34:20.230Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: In fs dont acept files only array","timestamp":"2023-08-28T01:35:09.342Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:35:09.359Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: In fs dont acept files only array","timestamp":"2023-08-28T01:35:09.379Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:35:09.398Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: No images files","timestamp":"2023-08-28T01:36:32.070Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: No images files","timestamp":"2023-08-28T01:37:07.849Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: No images files","timestamp":"2023-08-28T01:37:36.457Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:37:36.474Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: No images files","timestamp":"2023-08-28T01:37:36.486Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:37:36.494Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:39:30.017Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:39:30.038Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:39:30.058Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:39:30.075Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:40:42.407Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:40:42.420Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:40:42.437Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:40:42.449Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:41:29.993Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:41:30.009Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T01:41:30.027Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:41:30.040Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:43:50.144Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:43:50.159Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:43:50.174Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:43:50.185Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:45:21.457Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:45:21.482Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:45:21.518Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:45:21.533Z"}
+{"level":"error","message":"err_in_controller_post_new_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:46:09.055Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:46:09.069Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:46:09.090Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:46:09.107Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:48:30.216Z"}
+{"level":"error","message":"err_in_controller_put_project:ValidationError: \"imagesProject\" is required","timestamp":"2023-08-28T01:48:30.245Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:48:30.259Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:49:38.687Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-08-28T01:49:39.100Z"}
+{"level":"error","message":"err_in_controller_get_all_projects:Error: Unable to acquire a connection","timestamp":"2023-08-28T01:51:42.493Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: Unable to acquire a connection","timestamp":"2023-08-28T01:51:43.902Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: Unable to acquire a connection","timestamp":"2023-08-28T01:51:43.913Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: Unable to acquire a connection","timestamp":"2023-08-28T01:51:44.125Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: Unable to acquire a connection","timestamp":"2023-08-28T01:51:44.137Z"}
+{"level":"error","message":"err_in_controller_post_new_project:Error: No images files","timestamp":"2023-08-28T01:54:01.217Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T01:54:01.226Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: No images files","timestamp":"2023-08-28T01:54:01.232Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T01:54:01.240Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-08-28T02:04:31.460Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: no id available","timestamp":"2023-08-28T02:04:38.721Z"}
+{"level":"error","message":"err_in_controller_put_project:Error: we still can't delete images","timestamp":"2023-08-28T02:05:43.343Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: withId is not defined","timestamp":"2023-08-28T02:12:35.434Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:06:29.877Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:06:36.225Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:41:04.978Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:41:43.066Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:41:43.085Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:42:09.302Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:42:09.319Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:42:09.335Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:42:09.349Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:44:34.787Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:44:34.803Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:44:34.816Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:44:34.823Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:45:38.338Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:45:38.349Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:45:38.359Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:45:38.367Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:45:52.961Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:45:52.974Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:45:52.983Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:45:52.992Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:46:11.000Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:46:11.014Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:46:11.028Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:46:11.039Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:46:28.644Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:46:28.656Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'length')","timestamp":"2023-08-28T04:46:28.666Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:46:28.680Z"}
+{"level":"error","message":"err_in_controller_post_new_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-28T04:47:22.988Z"}
+{"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:47:23.003Z"}
+{"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-28T04:47:23.014Z"}
+{"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:47:23.022Z"}

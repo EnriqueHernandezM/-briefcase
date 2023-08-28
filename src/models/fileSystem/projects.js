@@ -54,7 +54,6 @@ export default class ContainerProyectsFs {
         allProjectsInDb[catchIdToModified] = updateProject;
         const okUpdateProject = JSON.stringify(allProjectsInDb);
         fs.writeFileSync(this.file, okUpdateProject);
-        console.log(updateProject);
         return updateProject;
       } else if (catchIdToModified === -1) {
         throw new Error("no id available");

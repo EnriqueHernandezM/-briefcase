@@ -1,0 +1,410 @@
+{
+	"info": {
+		"_postman_id": "93ca6261-60d3-4a39-90f0-8d0be1bac0b8",
+		"name": "briefcase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24071348"
+	},
+	"item": [
+		{
+			"name": "get status admin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/signUpAdmin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"signUpAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\":\"admin\",\r\n    \"name\":\"Youir name\",\r\n    \"password\":\"your Pin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/signUpAdmin?pinAdmin=#yourPin#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"signUpAdmin"
+					],
+					"query": [
+						{
+							"key": "pinAdmin",
+							"value": ""
+						}
+					],
+					"hash": "yourPin#"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get login status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"your name\",\r\n    \"password\":\"your password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logOut",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"pepee Hernandez Montiel\",\r\n    \"password\":\"262626\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/logOut",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"logOut"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all routs existing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post new route",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"all projects\",\r\n    \"urlAddres\":\"/api_briefcase/v1/getAllProjects\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete route with id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/?deleteRoutId=#id#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						""
+					],
+					"query": [
+						{
+							"key": "deleteRoutId",
+							"value": ""
+						}
+					],
+					"hash": "id#"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/getAllProjects",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"getAllProjects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post new project",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "files",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "tagsProject",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nameProject",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "urlProject",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/postAnewProject",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"postAnewProject"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get a project by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/getAProject/#id#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"getAProject",
+						""
+					],
+					"hash": "id#"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modify a project by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "files",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "nameProject",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "tagsProject",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "urlProject",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/modifiedAProject/#id#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"modifiedAProject",
+						""
+					],
+					"hash": "id#"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete a project by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api_briefcase/v1/deleteAproject/#id#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api_briefcase",
+						"v1",
+						"deleteAproject",
+						""
+					],
+					"hash": "id#"
+				}
+			},
+			"response": []
+		}
+	]
+}

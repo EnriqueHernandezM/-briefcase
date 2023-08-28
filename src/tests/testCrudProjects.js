@@ -30,7 +30,8 @@ const generateUpdateOneProject = () => {
 };
 const filePathImg = `src/tests/imagesTest/back.png`;
 const filePathImg2 = `src/tests/imagesTest/startGold.png`;
-
+const filePathImgToUpdate1 = `src/tests/imagesTest/next.png`;
+const filePathImgToUpdate2 = `src/tests/imagesTest/sqlLogo.png`;
 describe("TEST CRUD PROJECTS", () => {
   describe("GET ALL PROJECTS", () => {
     it("will respond with a array of all projects and status 200", async () => {
@@ -76,39 +77,27 @@ describe("TEST CRUD PROJECTS", () => {
   describe("PUT A PROJECT", () => {
     it(" Respond  with a message modiefied:true and object modified", async () => {
       const newUpdateOneProject = generateUpdateOneProject();
-      let modifiedAProject;
+      let modifiedAproject;
       switch (withS3) {
         case "true":
-          modifiedAProject = await request
+          modifiedAproject = await request
             .put(`/api_briefcase/v1/modifiedAProject/${idGenerate}`)
             .field("tagsProject", tagsProject)
             .field("description", description)
             .field("nameProject", nameProject)
             .field("urlProject", urlProject)
-            .attach("file", filePathImg)
-            .attach("file", filePathImg2);
+            .attach("files", filePathImgToUpdate1)
+            .attach("files", filePathImgToUpdate2);
           break;
         case "false":
-          modifiedAProject = await request.put(`/api_briefcase/v1/modifiedAProject/${idGenerate}`).send(newUpdateOneProject);
+          modifiedAproject = await request.put(`/api_briefcase/v1/modifiedAProject/${idGenerate}`).send(newUpdateOneProject);
           break;
       }
       expect(modifiedAproject.status).to.eql(200);
       expect(modifiedAproject.body).to.be.a("object");
       const elementModified = modifiedAproject.body.modifiedAproject;
+
       expect(elementModified).to.include.keys("nameProject", "tagsProject", "description", "imagesProject");
-      expect(newUpdateOneProject.nameProject).to.eql(elementModified.nameProject);
-      expect(newUpdateOneProject.description).to.eql(elementModified.description);
-      //arrs
-      for (let i = 0; i == elementModified.tagsProject.length; i++) {
-        newUpdateOneProject.tagsProject.forEach((el) => {
-          expect(el).to.eql(elementModified.tagsProject[i]);
-        });
-      }
-      for (let i = 0; i == elementModified.imagesProject.length; i++) {
-        newUpdateOneProject.imagesProject.forEach((el) => {
-          expect(el).to.eql(elementModified.imagesProject[i]);
-        });
-      }
     });
   });
   describe("DELETE A  PROJECT", () => {

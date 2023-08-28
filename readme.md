@@ -47,18 +47,18 @@ tests for the index of routes that the api has
 !!important
 
 > When carrying out our tests, for the moment it is necessary to comment the checkAuthentication middlewares in the routes.
-> In addition to understanding the part that when the app is running in dev, the tests can be done by directly sending an array with image urls so as not to use aws s3 resources and also implemented s3.
-> If the script is running in production, the tests will only be done by sending test files, therefore using s3.
+> In addition to understanding the part that when the application runs in dev, tests should be done by directly sending an array with image URLs to not use aws s3 resources with the test_projects_not_s3 script.
+> If the api is running in production, testing should be done by sending test files, therefore the test_projects_with_s3 script will be used.
 
 #### test directly sending url array without using s3
 
-using in fs and SQlite
+using only fs
 
 ```sh
 a) test_projects_not_s3
 ```
 
-#### test ussing s3
+#### tests using files and storing in s3
 
 using only SQlite
 
@@ -70,6 +70,7 @@ b) test_projects_with_s3
 
 ```sh
 1.- Creaate an admin
+a)To create a new user you need to send a query param with your pin ?pinAdmin=####
 2.- Login an logout admin
 3.- Add and remove paths from index
 3.- Get all projects
@@ -77,6 +78,10 @@ b) test_projects_with_s3
 5.- Get and update one project
 6.- Delete a project
 ```
+
+## !!brefcase.postman file for testing
+
+## !!.envExample file for environment variables
 
 ## Built with 🛠️
 

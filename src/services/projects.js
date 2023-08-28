@@ -22,18 +22,19 @@ export default class ContainerProjects {
   }
   async newProject(dataOfProject, files) {
     try {
-      if (aroundConfig.dbUse === "sQlite" && files.length < 1) {
-        throw new Error("no images files");
+      if (aroundConfig.dbUse === "sQlite" && (files.files === undefined || files.files.length < 1)) {
+        throw new Error("No images files");
       }
+      if (aroundConfig.dbUse === "fs" && dataOfProject.imagesProject === typeof undefined)
+        throw new Error("In fs dont acept files only array");
       let arrIMages;
-      if (dataOfProject.imagesProject === undefined) {
+      if (files && files.files) {
         arrIMages = await Promise.all(
           files.files.map(async (file) => {
-            const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
-            return storeImages;
+            return await uploadToBucket(aroundConfig.awsNameBucket, file);
           })
         );
-      } else if (files.length < 1) {
+      } else if (dataOfProject.imagesProject && dataOfProject.imagesProject.length > 0) {
         arrIMages = dataOfProject.imagesProject;
       }
       dataOfProject.tagsProject = dataOfProject.tagsProject.split(",");
@@ -52,22 +53,23 @@ export default class ContainerProjects {
   }
   async updateAproject(idToUpdate, dataForModified, files) {
     try {
-      if (aroundConfig.dbUse === "sQlite" && files.length < 1) {
-        throw new Error("no images files");
+      if (aroundConfig.dbUse === "sQlite" && (files.files === undefined || files.files.length < 1)) {
+        throw new Error("No images files");
       }
+      if (aroundConfig.dbUse === "fs" && dataForModified.imagesProject === typeof undefined)
+        throw new Error("In fs dont acept files only array");
       let arrImagesUpdate;
-      if (dataForModified.imagesProject === undefined) {
+      if (files && files.files) {
         arrImagesUpdate = await Promise.all(
           files.files.map(async (file) => {
-            const storeImages = await uploadToBucket(aroundConfig.awsNameBucket, file);
-            return storeImages;
+            return await uploadToBucket(aroundConfig.awsNameBucket, file);
           })
         );
-      } else if (files.length < 1) {
+      } else if (dataForModified.imagesProject && dataForModified.imagesProject.length > 0) {
         arrImagesUpdate = dataForModified.imagesProject;
       }
-      dataForModified.imagesProject = arrImagesUpdate;
       dataForModified.tagsProject = dataForModified.tagsProject.split(",");
+      dataForModified.imagesProject = arrImagesUpdate;
       ContainerProjects.checkElementsProject(dataForModified);
       const modifiedAproject = await DaoProjects.updateAprojectDb(idToUpdate, dataForModified);
       if (Object.entries(modifiedAproject).length > 0) {

@@ -48,14 +48,13 @@ export default function createTablesSqlite() {
         })
         .then(() => {
           logger.log("info", "✅The table for admin was successfully created");
-          logger.log("info", "✅all tables were created successfully");
         })
         .catch((err) => {
           console.log(err);
           throw new Error(err);
         })
         .finally(() => {
-          knexInstance.destroy();
+          logger.log("info", "✅all tables were created successfully");
         });
     }
   });

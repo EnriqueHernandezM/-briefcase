@@ -12,12 +12,10 @@ const storage = new S3Client({
     secretAccessKey,
   },
 });
-
 const getFiles = async (nameBucke, name) => {
   const urls = `https://${nameBucke}.s3.${region}.amazonaws.com/${name}`;
   return urls;
 };
-
 const uploadBucket = async (bucketName, file) => {
   const stream = fs.createReadStream(file.tempFilePath);
   const params = {
@@ -27,8 +25,9 @@ const uploadBucket = async (bucketName, file) => {
   };
   const comand = new PutObjectCommand(params);
   await storage.send(comand);
-  let x = await getFiles(bucketName, file.name);
-  return x;
+
+  let createUrl = await getFiles(bucketName, file.name);
+  return createUrl;
 };
 
 export default uploadBucket;
