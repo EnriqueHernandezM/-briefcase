@@ -15,6 +15,7 @@ export default class ContainerAuthFs {
   }
   async createdAdminDb(objectAdmin) {
     try {
+      console.log(objectAdmin);
       const id = 1;
       objectAdmin.id = id;
       const inArray = [];

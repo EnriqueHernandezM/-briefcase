@@ -1953,3 +1953,9 @@
 {"level":"error","message":"err_in_controller_get_one_project_by_id:Error: no id available","timestamp":"2023-08-28T04:47:23.003Z"}
 {"level":"error","message":"err_in_controller_put_project:TypeError: Cannot read properties of undefined (reading 'map')","timestamp":"2023-08-28T04:47:23.014Z"}
 {"level":"error","message":"err_in_controller_delete_one-project:Error: no id available","timestamp":"2023-08-28T04:47:23.022Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: withId is not defined","timestamp":"2023-08-29T05:06:06.512Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: withId is not defined","timestamp":"2023-08-29T05:06:08.775Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: withId is not defined","timestamp":"2023-08-29T05:06:10.251Z"}
+{"level":"error","message":"err_in_controller_get_index:ReferenceError: withId is not defined","timestamp":"2023-08-29T05:06:12.138Z"}
+{"level":"error","message":"your admin password is missing as query parameter","timestamp":"2023-08-29T06:34:06.085Z"}
+{"level":"error","message":"your admin password is missing as query parameter","timestamp":"2023-08-29T06:34:10.855Z"}

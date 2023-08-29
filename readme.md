@@ -3,7 +3,7 @@
 ## API from my portfolio of projects as a fullstack developer, developed in Node.js with a layered architecture.
 
 🟢 App deploy AWS
-http://jackvinateriasv1-env.eba-mxwwsges.us-east-1.elasticbeanstalk.com/
+http://enriquehdezbriefcasev100-env.eba-mdkbmmjj.us-east-2.elasticbeanstalk.com/api_briefcase/v1
 
 > The purpose of the RESTful API is the administration of the projects that I have carried out, through an SQlite database and image storage in aws s3.
 > In addition to being able to grow by adding other databases

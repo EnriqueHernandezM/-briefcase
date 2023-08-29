@@ -5,8 +5,8 @@ import IndexDaoFs from "./index/indexDaoFs.js";
 import IndexDaoSqlite from "./index/indexDaoSqlite.js";
 import ProjectsDaoFs from "./projects/projectsDaoFs.js";
 import ProjectsDaoSqlite from "./projects/projectsDaoSqlite.js";
-import ContainerAuthFs from "./auth/authDaoFs.js";
-import ContainerAuthSqlite from "../sqlite/auth.js";
+import AuthDaoFs from "./auth/authDaoFs.js";
+import AuthDaoSqlite from "./auth/authDaoSqlite.js";
 const instancias = [
   {
     name: IndexDaoFs,
@@ -29,12 +29,12 @@ const instancias = [
     description: "projects",
   },
   {
-    name: ContainerAuthFs,
+    name: AuthDaoFs,
     id: "fs",
     description: "auth",
   },
   {
-    name: ContainerAuthSqlite,
+    name: AuthDaoSqlite,
     id: "sQlite",
     description: "auth",
   },
