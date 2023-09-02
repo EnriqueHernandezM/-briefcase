@@ -5,7 +5,7 @@ export default class ContainerIndexSqlite {
     this.file = file;
   }
 
-  async getMyRoutesDb() {
+  async getMyRoutesDb(withId) {
     try {
       const routesExitingMySqlte = await knexInstance(this.file).select("*");
       const routsOk = routesExitingMySqlte ? routesExitingMySqlte : [];
