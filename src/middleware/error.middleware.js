@@ -1,7 +1,5 @@
 const notFound = (req, res, next) => {
-  const err = new Error(
-    `Not found - ${req.originalUrl} visit: http://enriquehdezbriefcasev100-env.eba-mdkbmmjj.us-east-2.elasticbeanstalk.com/api_briefcase/v1`
-  );
+  const err = new Error(`Not found - ${req.originalUrl} visit: /api_briefcase/v1`);
   res.status(400);
   next(err);
 };

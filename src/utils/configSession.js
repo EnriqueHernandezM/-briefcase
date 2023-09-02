@@ -14,7 +14,9 @@ export default session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    maxAge: 1200000, //sesion 20 min
+    maxAge: 20000, //1200000, //sesion 20 min
     httpOnly: false,
+    resave: false,
+    rolling: true,
   },
 });

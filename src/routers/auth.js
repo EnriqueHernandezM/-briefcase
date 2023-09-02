@@ -7,11 +7,11 @@ const auth = new Router();
 auth.get("/login", getLogin);
 auth.get("/signUpAdmin", getSignUpAdmin);
 auth.get("/logOut", logOut);
-auth.post("/login", passport.authenticate("login", { passReqToCallback: true, failureRedirect: "/api/V1/login" }), postLogin);
+auth.post("/login", passport.authenticate("login", { passReqToCallback: true, failureRedirect: "/api_briefcase/v1/login" }), postLogin);
 auth.post(
   "/signUpAdmin",
   isAdmin,
-  passport.authenticate("createAdmin", { passReqToCallback: true, failureRedirect: "/api/V1/signUpAdmin" }),
+  passport.authenticate("createAdmin", { passReqToCallback: true, failureRedirect: "/api_briefcase/v1/signUpAdmin" }),
   postSignUpAdmin
 );
 
