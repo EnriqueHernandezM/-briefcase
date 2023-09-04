@@ -28,7 +28,6 @@ export default class ContainerProjects {
       if (aroundConfig.dbUse === "fs" && dataOfProject.imagesProject === typeof undefined)
         throw new Error("In fs dont acept files only array");
       let arrIMages;
-
       if (files && files.files) {
         ContainerProjects.validateImg(files.files);
         arrIMages = await Promise.all(
