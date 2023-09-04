@@ -16,7 +16,7 @@ import { projects } from "./routers/router.js";
 import { auth } from "./routers/router.js";
 export default class InitServer {
   constructor() {
-    this.PORT = aroundConfig.PORT || process.argv[2] || 8081;
+    this.PORT = aroundConfig.PORT || process.argv[2];
     this.app = app;
     this.httpServer = httpServer;
     this.session = session;

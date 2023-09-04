@@ -28,7 +28,9 @@ export default class ContainerProjects {
       if (aroundConfig.dbUse === "fs" && dataOfProject.imagesProject === typeof undefined)
         throw new Error("In fs dont acept files only array");
       let arrIMages;
+
       if (files && files.files) {
+        ContainerProjects.validateImg(files.files);
         arrIMages = await Promise.all(
           files.files.map(async (file) => {
             return await uploadToBucket(aroundConfig.awsNameBucket, file);
@@ -60,6 +62,7 @@ export default class ContainerProjects {
         throw new Error("In fs dont acept files only array");
       let arrImagesUpdate;
       if (files && files.files) {
+        ContainerProjects.validateImg(files.files);
         arrImagesUpdate = await Promise.all(
           files.files.map(async (file) => {
             return await uploadToBucket(aroundConfig.awsNameBucket, file);
@@ -109,5 +112,15 @@ export default class ContainerProjects {
     if (error) {
       throw error;
     }
+  }
+  static validateImg(imgs) {
+    imgs.forEach((img) => {
+      if (!img.name.endsWith(".png") && !img.name.endsWith(".jpg") && !img.name.endsWith(".jpeg")) {
+        throw new Error("only png,jpg,jpeg");
+      }
+      if (img.size > 2000000) {
+        throw new Error("an image has exceeded the weight");
+      }
+    });
   }
 }
