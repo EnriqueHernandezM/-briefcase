@@ -32,7 +32,7 @@ export default class InitServer {
   }
 
   middlewares() {
-    this.app.use(cors({ origin: "http://localhost:3000", optionsSuccessStatus: 200, credentials: true }));
+    this.app.use(cors({ origin: aroundConfig.originCors, optionsSuccessStatus: 200, credentials: true }));
     this.app.use(express.static("public"));
     this.app.use(
       fileUpload({

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "set DB=sQlite&& nodemon server.js 8081",
-    "dev": "set DB=fs&& nodemon server.js 8081",
+    "dev": "set DB=fs&& nodemon server.js 8080",
     "test": "mocha src/tests/testIndex.js ",
     "test_projects_not_s3": "mocha src/tests/testCrudProjects.js false",
     "test_projects_with_s3": "mocha src/tests/testCrudProjects.js true"
