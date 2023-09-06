@@ -16,7 +16,6 @@ export default session({
   cookie: {
     maxAge: 20000, //1200000, //sesion 20 min
     httpOnly: false,
-    resave: false,
-    rolling: true,
+    secure: false,
   },
 });
