@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-import http, { METHODS } from "http";
+import http from "http";
 import cors from "cors";
 import aroundConfig from "./config/default.js";
 import logger from "./utils/loggers.js";
@@ -37,14 +37,8 @@ export default class InitServer {
       cors({
         origin: true,
         credentials: true,
-        allowedHeaders: ["Content-Type", "Authorization"],
-        exposedHeaders: ["Content-Range", "X-Content-Range"],
       })
     );
-    app.use(function (req, res, next) {
-      res.header("Access-Control-Allow-Headers", "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept");
-      next();
-    });
     this.app.use(express.static("public"));
     this.app.use(
       fileUpload({

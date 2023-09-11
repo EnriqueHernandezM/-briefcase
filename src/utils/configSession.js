@@ -17,7 +17,8 @@ export default session({
   cookie: {
     maxAge: 20000, //1200000, //sesion 20 min
     httpOnly: false,
+    domain: "localhost",
+    sameSite: "strict",
     secure: true,
-    sameSite: "none",
   },
 });
