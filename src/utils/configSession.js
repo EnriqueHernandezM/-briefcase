@@ -13,12 +13,10 @@ export default session({
   secret: aroundConfig.wordSecret,
   resave: false,
   saveUninitialized: false,
-
   cookie: {
     maxAge: 20000, //1200000, //sesion 20 min
     httpOnly: false,
-    domain: "localhost",
-    sameSite: "strict",
+    sameSite: "none",
     secure: true,
   },
 });

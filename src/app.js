@@ -18,6 +18,7 @@ export default class InitServer {
   constructor() {
     this.PORT = aroundConfig.PORT || process.argv[2];
     this.app = app;
+    this.app.set("trust proxy", 1);
     this.httpServer = httpServer;
     this.session = session;
     this.notFound = notFound;
@@ -35,8 +36,9 @@ export default class InitServer {
     this.app.use(
       "*",
       cors({
-        origin: true,
+        origin: aroundConfig.originCors,
         credentials: true,
+        METHODS: "PUT,POST,GET,DELETE,OPTIONS",
       })
     );
     this.app.use(express.static("public"));
