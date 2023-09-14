@@ -14,7 +14,7 @@ export default session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    maxAge: 20000, //1200000, //sesion 20 min
+    maxAge: 21000000, //sesion 20 min
     httpOnly: false,
     sameSite: "none",
     secure: true,

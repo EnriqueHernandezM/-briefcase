@@ -1,7 +1,7 @@
 PIN_ADMIN=here is your password to create a user
 WORD_SECRET=of session
-DB= fs or aQlite 
-ORIGIN_CORS= client
+DB= fs or aQlite
+ORIGIN_CORS= client if is localhost change in sessions secure and sameSite
 PASSWORD_REDISLAB=
 HOST_REDISLAB=
 PORT_REDISLAB=

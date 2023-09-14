@@ -31,7 +31,6 @@ export default class InitServer {
   initDbs() {
     this.creataTablesSqlite();
   }
-
   middlewares() {
     this.app.use(
       "*",
