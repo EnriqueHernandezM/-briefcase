@@ -77,7 +77,7 @@ passport.use(
           return done(null, false);
         }
         if (!isValidPassword(user, password)) {
-          logger.log("info", "Invalid Password");
+          logger.log("warn", "Invalid Password");
           return done(null, false);
         }
         return done(null, user);
