@@ -31,11 +31,14 @@ passport.use(
       passReqToCallback: true,
     },
     (req, name, password, done) => {
-      if (req.query.params) {
+      const chartersNotAcept = /[&<>%!`?{}]/;
+      if (chartersNotAcept.test(password)) {
+        logger.log("warn", "password err");
+        return done(new Error("password inavlide"));
       }
       containerAuth.getInfoUser(null, name, (err, user) => {
         if (err) {
-          logger.log("info", "Error in SignUp: " + err);
+          logger.log("warn", "Error in SignUp:" + err);
           return done(err);
         }
         if (user) {
@@ -71,7 +74,10 @@ passport.use(
     },
     (req, name, password, done) => {
       containerAuth.getInfoUser(null, name, (err, user) => {
-        if (err) return done(err);
+        if (err) {
+          logger.log("warn", "Error in SignUp:" + err);
+          return done(err);
+        }
         if (!user) {
           logger.log("info", `User Not Found with name  ${name}`);
           return done(null, false);

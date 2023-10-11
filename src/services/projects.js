@@ -102,8 +102,8 @@ export default class ContainerProjects {
   static validar(project) {
     const CreateProjectSchema = Joi.object({
       nameProject: Joi.string().min(1).max(50).required(),
-      tagsProject: Joi.array().max(15).items(Joi.string()).required(),
-      description: Joi.string().min(5).max(230).required(),
+      tagsProject: Joi.array().max(18).items(Joi.string()).required(),
+      description: Joi.string().min(5).max(800).required(),
       imagesProject: Joi.array().max(4).items(Joi.string()).required(),
       urlProject: Joi.string().required(),
     });

@@ -1,0 +1,5 @@
+{"level":"error","message":"err_in_auth_get_login:Error: missing data","timestamp":"2023-10-10T23:43:37.115Z"}
+{"level":"error","message":"err_in_auth_get_login:Error: missing data","timestamp":"2023-10-10T23:43:41.796Z"}
+{"level":"error","message":"err_in_auth_get_sign_up_admin:TypeError: req.isAuthenticated is not a function","timestamp":"2023-10-11T00:34:46.600Z"}
+{"level":"error","message":"err_in_auth_get_sign_up_admin:TypeError: req.isAuthenticated is not a function","timestamp":"2023-10-11T00:35:03.151Z"}
+{"level":"error","message":"err_in_auth_get_sign_up_admin:TypeError: req.isAuthenticated is not a function","timestamp":"2023-10-11T00:35:05.241Z"}

@@ -1,8 +1,13 @@
 import { DaoAuth } from "../models/daos/daosFactory.js";
 export default class ContainerAuth {
-  constructor() {}
+  constructor() {
+    this.chartersNotAcept = /[$&<>%!`?{}]/;
+  }
   async getInfoUser(idRecib, name, funcGetUser) {
     try {
+      if (this.chartersNotAcept.test(name)) {
+        return funcGetUser(new Error("Date invalid"), null);
+      }
       const resUser = await DaoAuth.getMyUserDb();
       if (resUser.length == 0) {
         funcGetUser(null, false);

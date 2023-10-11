@@ -26,7 +26,7 @@ const uploadBucket = async (bucketName, file) => {
   const comand = new PutObjectCommand(params);
   await storage.send(comand);
 
-  let createUrl = await getFiles(bucketName, file.name);
+  const createUrl = await getFiles(bucketName, file.name);
   return createUrl;
 };
 
